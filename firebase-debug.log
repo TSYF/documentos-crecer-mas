@@ -1,0 +1,58 @@
+[debug] [2025-09-26T01:31:51.323Z] ----------------------------------------------------------------------
+[debug] [2025-09-26T01:31:51.326Z] Command:       /home/tomas/.nvm/versions/node/v22.17.1/bin/node /home/tomas/.local/share/pnpm/global/5/node_modules/firebase-tools/lib/bin/firebase.js init hosting
+[debug] [2025-09-26T01:31:51.326Z] CLI Version:   13.29.1
+[debug] [2025-09-26T01:31:51.326Z] Platform:      linux
+[debug] [2025-09-26T01:31:51.326Z] Node Version:  v22.17.1
+[debug] [2025-09-26T01:31:51.327Z] Time:          Thu Sep 25 2025 22:31:51 GMT-0300 (Chile Summer Time)
+[debug] [2025-09-26T01:31:51.327Z] ----------------------------------------------------------------------
+[debug] 
+[debug] [2025-09-26T01:31:51.339Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2025-09-26T01:31:51.339Z] > authorizing via signed-in user (toma.yanez@duocuc.cl)
+[info] 
+     ######## #### ########  ######## ########     ###     ######  ########
+     ##        ##  ##     ## ##       ##     ##  ##   ##  ##       ##
+     ######    ##  ########  ######   ########  #########  ######  ######
+     ##        ##  ##    ##  ##       ##     ## ##     ##       ## ##
+     ##       #### ##     ## ######## ########  ##     ##  ######  ########
+
+You're about to initialize a Firebase project in this directory:
+
+  /mnt/c/Users/tomas/code/obsidian/quartz
+
+Before we get started, keep in mind:
+
+  * You are currently outside your home directory
+
+[info] 
+=== Account Setup
+[info] 
+[info] Which account do you want to use for this project? Choose an account or add a new one now
+[info] 
+[debug] [2025-09-26T01:31:52.991Z] setProjectAccount(/mnt/c/Users/tomas/code/obsidian/quartz, toma.yanez@duocuc.cl)
+[info] 
+[info] ✔  Using account: toma.yanez@duocuc.cl 
+[info] 
+=== Project Setup
+[info] 
+[info] First, let's associate this project directory with a Firebase project.
+[info] You can create multiple project aliases by running firebase use --add, 
+[info] but for now we'll just set up a default project.
+[info] 
+[debug] [2025-09-26T01:31:53.825Z] Checked if tokens are valid: true, expires at: 1758852717326
+[debug] [2025-09-26T01:31:53.825Z] Checked if tokens are valid: true, expires at: 1758852717326
+[debug] [2025-09-26T01:31:53.827Z] >>> [apiv2][query] GET https://firebase.googleapis.com/v1beta1/projects pageSize=100
+[debug] [2025-09-26T01:31:55.318Z] <<< [apiv2][status] GET https://firebase.googleapis.com/v1beta1/projects 200
+[debug] [2025-09-26T01:31:55.319Z] <<< [apiv2][body] GET https://firebase.googleapis.com/v1beta1/projects [omitted]
+[info] i  Using project documentos-crecer-mas (Documentos Crecer Mas) 
+[info] 
+=== Hosting Setup
+[debug] [2025-09-26T01:31:56.275Z] Checked if tokens are valid: true, expires at: 1758852717326
+[debug] [2025-09-26T01:31:56.275Z] Checked if tokens are valid: true, expires at: 1758852717326
+[debug] [2025-09-26T01:31:56.276Z] >>> [apiv2][query] GET https://firebase.googleapis.com/v1beta1/projects/documentos-crecer-mas [none]
+[debug] [2025-09-26T01:31:56.726Z] <<< [apiv2][status] GET https://firebase.googleapis.com/v1beta1/projects/documentos-crecer-mas 200
+[debug] [2025-09-26T01:31:56.726Z] <<< [apiv2][body] GET https://firebase.googleapis.com/v1beta1/projects/documentos-crecer-mas {"projectId":"documentos-crecer-mas","projectNumber":"356801258203","displayName":"Documentos Crecer Mas","name":"projects/documentos-crecer-mas","resources":{"hostingSite":"documentos-crecer-mas"},"state":"ACTIVE","etag":"1_ca34bbe6-862c-4547-89cf-11ab60ca172f"}
+[info] 
+[info] Your public directory is the folder (relative to your project directory) that
+[info] will contain Hosting assets to be uploaded with firebase deploy. If you
+[info] have a build process for your assets, use your build's output directory.
+[info] 
