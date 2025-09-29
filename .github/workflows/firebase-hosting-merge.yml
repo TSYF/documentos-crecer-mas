@@ -11,7 +11,17 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4
-      - run: npm ci && npx quartz build
+      - run: npm ci
+
+      - name: Check types and style
+        run: npm run check
+
+      - name: Test
+        run: npm test
+
+      - name: Ensure Quartz builds, check bundle info
+        run: npx quartz build
+
       - uses: FirebaseExtended/action-hosting-deploy@v0
         with:
           repoToken: ${{ secrets.GITHUB_TOKEN }}

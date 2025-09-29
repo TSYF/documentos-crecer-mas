@@ -36,7 +36,7 @@ El alcance del proyecto se definió a través de un proceso iterativo que incluy
 El proceso de definición del alcance produjo los siguientes documentos clave:
 
 - **[[Enunciado de Alcance del Proyecto]]** - Descripción detallada del alcance, entregables, criterios de aceptación y exclusiones
-- [**Estructura de Desglose del Trabajo (EDT/WBS)**](EDT) - Descomposición jerárquica del trabajo
+- [**Estructura de Desglose del Trabajo (EDT/WBS)**](EDT.pdf) - Descomposición jerárquica del trabajo
 - **[[Diccionario EDT]]** - Información detallada de cada componente de la EDT
 
 ## 3. Estructura de Desglose del Trabajo (EDT/WBS)

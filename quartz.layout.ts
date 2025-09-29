@@ -19,9 +19,9 @@ export const defaultContentPageLayout: PageLayout = {
   beforeBody: [
     Component.ConditionalRender({
       component: Component.Breadcrumbs(),
-      condition: (page) => page.fileData.slug !== "index",
+      condition: (page) => page.fileData.slug !== page.fileData.filePath?.split("/").at(-2),
     }),
-    Component.ArticleTitle(),
+    // Component.ArticleTitle(),
     Component.ContentMeta(),
     Component.TagList(),
   ],

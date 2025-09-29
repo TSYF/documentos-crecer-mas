@@ -6,11 +6,10 @@
 
 ---
 ### Tabla de contenido
-* [Información del proyecto](#informacion)
-* [Aprobaciones](#aprobaciones)
-* Introducción
-* Planes de gestión de proyecto subsidiarios
-* Plan de gestión del alcance	[6](#_toc15313862)
+* [Información del proyecto](#información-del-proyecto-)
+* [Aprobaciones](#aprobaciones-)
+* [Introducción](#introducción)
+* [Plan de gestión del alcance](#plan-de-gestión-del-alcance)
 * Plan de gestión de requerimientos	[6](#_toc15313863)
 * Plan de gestión del cronograma	[7](#_toc15313864)
 * Plan de gestión de costos	[7](#_toc15313865)
@@ -33,7 +32,7 @@
 * Evaluaciones de la gerencia	[15](#_toc15313882)
 
 ---
-### Información del proyecto <span id=informacion/>
+### Información del proyecto
 
 **Datos**
 
@@ -53,7 +52,7 @@
 |            |           |                             |                                      |
 
 ---
-### Aprobaciones <span id=aprobaciones/>
+### Aprobaciones
 
 |        **Nombre / Cargo**        | **Fecha** | **Firma** |
 | :------------------------------: | :-------: | :-------: |
