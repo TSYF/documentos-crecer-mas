@@ -43,7 +43,7 @@ El proceso de definición del alcance produjo los siguientes documentos clave:
 
 La EDT del proyecto está organizada por entregables principales, dividida en cuatro sistemas principales con sus respectivas fases de desarrollo:
 
-![EDT Transformación Digital Crecer Más](https://docs.google.com/drawings/d/e/2PACX-1vQ8yH8mK4oQXzL2vGF9xN3pL7mE2rR6tY5uI1wA2sD3fG4hJ6kL8mN9oP0qR2sT4uV5wX6yZ7aB8cD9e/pub?w=1200&h=800)
+![EDT Transformación Digital Crecer Más](EDT.pdf)
 
 ### 3.1 Niveles de la EDT
 
@@ -86,7 +86,7 @@ La línea base del alcance está compuesta por tres documentos fundamentales:
     - Criterios de aceptación técnicos, funcionales y de satisfacción
     - Exclusiones explícitas del proyecto
     - Restricciones y supuestos detallados
-2. [**Estructura de Desglose del Trabajo (EDT/WBS)**](EDT)
+2. [**Estructura de Desglose del Trabajo (EDT/WBS)**](EDT.pdf)
     
     - 115 elementos totales organizados jerárquicamente
     - 4 sistemas principales
