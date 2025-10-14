@@ -501,254 +501,39 @@ Frecuencia de reuniones: Semanal o según demanda
 
 ---
 
-## 3. Estructura de Trazabilidad
+## 3. Estructura de Trazabilidad - Matriz de Trazabilidad de Requerimientos (RTM)
 
-### Matriz de Trazabilidad de Requerimientos (RTM)
+**Código de proyecto:** TCIM-2025  
+**Proyecto:** Transformación Digital Integral - Instituto Técnico Profesional Crecer Más  
+**Elaborado por:** www.pmoinformatica.com
 
-La Matriz de Trazabilidad de Requerimientos es una herramienta fundamental que permite rastrear cada requisito desde su identificación inicial hasta su completa validación y entrega, asegurando que todos los requisitos sean implementados y cumplan con los objetivos del proyecto.
+### Matriz de Trazabilidad de Requerimientos
 
-**Información General de la Matriz**
-
-- **Código de proyecto:** TCIM-2025 (Transformación Digital Instituto Crecer Más)
-- **Proyecto:** Transformación Digital Integral - Instituto Técnico Profesional Crecer Más
-- **Elaborado por:** pmoinformatica.com (adaptado al proyecto)
-
-### Estructura de Columnas de la Matriz RTM
-
-La matriz de trazabilidad contiene las siguientes 16 columnas estructuradas para garantizar trazabilidad completa:
-
-| # | Columna | Descripción | Propósito |
-|---|---------|-------------|-----------|
-| 1 | **Identificación** | ID único del requisito (ej: SIGAA-RF-001) | Identificador único inequívoco |
-| 2 | **Sub-identificación** | ID de sub-requisito o descomposición (ej: SIGAA-RF-001.1) | Para requisitos con múltiples componentes |
-| 3 | **Descripción del requisito** | Narrativa detallada del requisito | Explicación clara de qué se necesita |
-| 4 | **Versión** | Número de versión del requisito (ej: 1.0, 1.1, 2.0) | Control de cambios del requisito |
-| 5 | **Estado actual** | Estado del requisito: Propuesto / Aprobado / En Desarrollo / Implementado / Validado | Seguimiento del ciclo de vida |
-| 6 | **Última fecha estado registrado** | Fecha del último cambio de estado (DD/MM/AAAA) | Trazabilidad temporal |
-| 7 | **Criterios de aceptación** | Condiciones específicas y verificables para aprobar el requisito | Definir cuándo está "terminado" |
-| 8 | **Nivel de complejidad** | Baja / Media / Alta | Estimación de esfuerzo y riesgo |
-| 9 | **Necesidad, oportunidades u objetivos de negocio** | Vinculación con objetivos institucionales y justificación de negocio | Asegurar valor de negocio |
-| 10 | **Objetivo del proyecto** | Relación con objetivos específicos del proyecto | Alineamiento estratégico |
-| 11 | **Entregables (EDT)** | Código EDT del paquete de trabajo relacionado (ej: 1.1.2) | Vinculación con estructura del proyecto |
-| 12 | **Diseño del producto** | Referencia a documentos de diseño, mockups, wireframes | Trazabilidad a solución técnica |
-| 13 | **Desarrollo del producto** | Módulos, componentes o código que implementa el requisito | Vinculación con desarrollo |
-| 14 | **Estrategia y escenarios de pruebas** | Plan de pruebas y escenarios de testing asociados | Estrategia de validación |
-| 15 | **Interesado (Stakeholder) dueño del requisito** | Nombre del stakeholder que solicita/aprueba el requisito | Responsabilidad y contacto |
-| 16 | **Nivel de prioridad** | Alta / Media / Baja | Orden de implementación |
-
-### Proceso de Completado de la Matriz
-
-**Fase de Levantamiento (Columnas 1-3, 9-10, 15-16)**
-- **Responsable:** Analistas de Negocio
-- **Actividades:**
-  - Asignar ID único secuencial por módulo
-  - Documentar descripción detallada del requisito
-  - Identificar stakeholder dueño del requisito
-  - Vincular con necesidades y objetivos de negocio del Instituto
-  - Vincular con objetivos específicos del proyecto
-  - Asignar nivel de prioridad según impacto
-
-**Fase de Análisis (Columnas 4-8)**
-- **Responsable:** Analistas de Negocio + Líderes Técnicos
-- **Actividades:**
-  - Establecer versión inicial (1.0)
-  - Definir criterios de aceptación medibles y verificables
-  - Evaluar nivel de complejidad técnica
-  - Registrar estado como "Propuesto"
-  - Documentar fecha de registro
-
-**Fase de Diseño (Columnas 11-12)**
-- **Responsable:** Arquitectos de Software + Diseñadores UX
-- **Actividades:**
-  - Asignar requisito a paquete de trabajo específico en EDT
-  - Crear documentos de diseño técnico
-  - Desarrollar mockups o wireframes si aplica
-  - Referenciar documentación en la columna correspondiente
-
-**Fase de Desarrollo (Columna 13)**
-- **Responsable:** Desarrolladores + Líderes Técnicos
-- **Actividades:**
-  - Identificar módulos o componentes de código que implementan el requisito
-  - Actualizar estado a "En Desarrollo"
-  - Registrar referencias a repositorio de código (ej: Azure DevOps)
-  - Mantener trazabilidad en commits de código
-
-**Fase de Pruebas (Columna 14)**
-- **Responsable:** Equipo de QA
-- **Actividades:**
-  - Crear casos de prueba específicos basados en criterios de aceptación
-  - Definir escenarios de prueba (happy path, casos límite, errores)
-  - Documentar estrategia de testing (unitaria, integración, UAT)
-  - Ejecutar pruebas y registrar resultados
-
-**Fase de Validación (Actualización Columnas 5-6)**
-- **Responsable:** Gerente de Proyecto + Patrocinadores
-- **Actividades:**
-  - Actualizar estado a "Implementado" tras desarrollo exitoso
-  - Actualizar estado a "Validado" tras aprobación formal
-  - Registrar fecha de cada cambio de estado
-  - Obtener firma de aceptación del stakeholder dueño
-
-### Ejemplos de Trazabilidad por Módulo
-
-**Ejemplo 1: SIGAA - Portal Estudiante**
-
-| Identificación | Sub-id | Descripción | Versión | Estado | Fecha | Criterios Aceptación | Complejidad | Objetivo Negocio | Objetivo Proyecto | EDT | Diseño | Desarrollo | Pruebas | Stakeholder | Prioridad |
+| Identificación | Sub-identificación | Descripción del requisito | Versión | Estado actual | Última fecha estado registrado | Criterios de aceptación | Nivel de complejidad | Necesidad, oportunidades u objetivos de negocio | Objetivo del proyecto | Entregables (EDT) | Diseño del producto | Desarrollo del producto | Estrategia y escenarios de pruebas | Interesado (Stakeholder) dueño del requisito | Nivel de prioridad |
 |---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|
-| SIGAA-RF-001 | - | El estudiante debe poder consultar sus notas en tiempo real | 1.0 | Aprobado | 15/08/2025 | Usuario ve notas actualizadas <24hrs, todas las asignaturas visibles | Media | Mejorar experiencia estudiante | Digitalizar gestión académica | 1.1.1 | DOC-UI-001 | Módulo.Notas.Consulta | TC-SIGAA-001 | Patricio Núñez | Alta |
-
-**Ejemplo 2: Campus Virtual+ - LMS**
-
-| Identificación | Sub-id | Descripción | Versión | Estado | Fecha | Criterios Aceptación | Complejidad | Objetivo Negocio | Objetivo Proyecto | EDT | Diseño | Desarrollo | Pruebas | Stakeholder | Prioridad |
-|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|
-| CAMPUS-RF-015 | - | El docente debe poder crear evaluaciones con diferentes tipos de preguntas | 1.1 | En Desarrollo | 20/09/2025 | Soporte para V/F, selección múltiple, desarrollo. Banco de preguntas reutilizable | Alta | Facilitar modalidad híbrida | Implementar LMS funcional | 1.2.3 | DOC-EVAL-003 | Moodle.Quiz.Module | TC-CAMPUS-015 | María Inés Zamora | Alta |
-
-**Ejemplo 3: Sistema Alerta Temprana - IA**
-
-| Identificación | Sub-id | Descripción | Versión | Estado | Fecha | Criterios Aceptación | Complejidad | Objetivo Negocio | Objetivo Proyecto | EDT | Diseño | Desarrollo | Pruebas | Stakeholder | Prioridad |
-|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|
-| ALERT-RF-008 | - | El sistema debe predecir riesgo de deserción con accuracy >85% | 2.0 | Validado | 05/10/2025 | Modelo ML con precision >85%, recall >80%, alertas generadas 48hrs antes | Alta | Reducir deserción 30% | Implementar analítica predictiva | 1.3.3 | DOC-ML-002 | Python.ML.PredictionEngine | TC-ALERT-008 | Carolina Rivas | Alta |
-
-### Vinculación con Objetivos Institucionales
-
-Cada requisito debe vincularse explícitamente con al menos uno de los objetivos estratégicos del Instituto:
-
-**Objetivos de Negocio (Columna 9):**
-- **OBJ-01:** Duplicar matrícula en 5 años (de 2.500 a 5.000 estudiantes)
-- **OBJ-02:** Reducir deserción estudiantil en 30%
-- **OBJ-03:** Expandir a 3 regiones adicionales del país
-- **OBJ-04:** Mejorar eficiencia operativa administrativa y académica
-- **OBJ-05:** Posicionarse como líder en formación técnica híbrida
-- **OBJ-06:** Incrementar satisfacción de estudiantes y empleabilidad
-
-**Objetivos del Proyecto (Columna 10):**
-- **PROJ-01:** Digitalizar completamente gestión académica y administrativa
-- **PROJ-02:** Implementar plataforma de aprendizaje virtual escalable
-- **PROJ-03:** Desarrollar capacidades de analítica predictiva con IA
-- **PROJ-04:** Automatizar procesos de admisión y seguimiento de leads
-- **PROJ-05:** Migrar infraestructura a cloud computing (AWS)
-- **PROJ-06:** Integrar sistemas y eliminar silos de información
-
-### Vinculación con EDT
-
-La columna "Entregables (EDT)" debe referenciar el código específico del paquete de trabajo en la Estructura de Desglose del Trabajo:
-
-**Códigos EDT por Módulo:**
-- **1.1.x:** Sistema Integrado de Gestión Académica (SIGAA)
-  - 1.1.1: Portal Estudiante/Docente
-  - 1.1.2: Gestión Académica
-  - 1.1.3: Administración Financiera
-  - 1.1.4: Certificados Digitales
-
-- **1.2.x:** Campus Virtual+ (LMS)
-  - 1.2.1: LMS Moodle Personalizado
-  - 1.2.2: Videoconferencias
-  - 1.2.3: Gestión de Cursos
-  - 1.2.4: Evaluaciones Online
-
-- **1.3.x:** Sistema Alerta Temprana con IA
-  - 1.3.1: Algoritmos Predictivos
-  - 1.3.2: Panel Seguimiento Tutores
-  - 1.3.3: Motor de IA
-  - 1.3.4: Intervención Automatizada
-
-- **1.4.x:** CRM Educativo y Admisión
-  - 1.4.1: Gestión de Leads
-  - 1.4.2: Formularios Inteligentes
-  - 1.4.3: Automatización Comunicaciones
-  - 1.4.4: Dashboard Campañas
-
-- **1.5.x:** Infraestructura y Soporte
-  - 1.5.1: Migración AWS
-  - 1.5.2: Seguridad y Respaldos
-  - 1.5.3: Integración Sistemas
-  - 1.5.4: Capacitación Personal
-
-### Gestión de Versiones de Requisitos
-
-La columna "Versión" permite rastrear la evolución de cada requisito:
-
-**Sistema de Versionado:**
-- **X.0:** Versión mayor - Cambios significativos en el requisito
-- **X.Y:** Versión menor - Ajustes o aclaraciones sin cambio fundamental
-- **Ejemplo:** 
-  - v1.0: Requisito original aprobado
-  - v1.1: Aclaración en criterios de aceptación
-  - v2.0: Cambio significativo aprobado por CCB
-
-**Procedimiento de Cambio de Versión:**
-1. Requisito con cambio aprobado incrementa versión
-2. Se documenta razón del cambio en log de cambios
-3. Fecha de actualización se registra en "Última fecha estado registrado"
-4. Stakeholder dueño debe aprobar cambios de versión mayor
-
-### Estados del Ciclo de Vida
-
-Los estados posibles en la columna "Estado actual" y su significado:
-
-| Estado | Descripción | Transiciones Permitidas |
-|--------|-------------|-------------------------|
-| **Propuesto** | Requisito identificado pero no aprobado | → Aprobado, Rechazado |
-| **Aprobado** | Requisito validado y autorizado para desarrollo | → En Desarrollo |
-| **En Desarrollo** | Requisito en proceso de implementación | → Implementado, En Espera |
-| **Implementado** | Desarrollo completado, pendiente validación | → Validado, En Desarrollo (si falla pruebas) |
-| **Validado** | Requisito completamente terminado y aceptado | → (estado final) |
-| **En Espera** | Bloqueado por dependencias o decisiones | → En Desarrollo, Cancelado |
-| **Cancelado** | Requisito descartado formalmente | → (estado final) |
-
-### Herramientas y Mantenimiento
-
-**Herramienta de Gestión:**
-- **Archivo maestro:** Excel/Google Sheets compartido en SharePoint
-- **Backup automático:** Diario en repositorio del proyecto
-- **Control de acceso:** Permisos por rol (lectura vs edición)
-- **Sincronización:** Con Azure DevOps para requisitos en desarrollo
-
-**Frecuencia de Actualización:**
-- **Diaria:** Columnas de estado y fecha por desarrolladores/QA
-- **Semanal:** Revisión y validación por Analistas de Negocio
-- **Quincenal:** Auditoría de completitud por Gerente de Proyecto
-- **Mensual:** Reporte ejecutivo de cobertura y estado
-
-**Métricas de la RTM:**
-- **% Cobertura EDT:** (Requisitos con EDT asignado / Total requisitos) × 100 - Meta: 100%
-- **% Cobertura Diseño:** (Requisitos con diseño / Total aprobados) × 100 - Meta: >95%
-- **% Cobertura Pruebas:** (Requisitos con casos de prueba / Total en desarrollo) × 100 - Meta: 100%
-- **Requisitos Huérfanos:** Requisitos sin vinculación a EDT o diseño - Meta: 0
-- **Tiempo Medio por Estado:** Días promedio en cada estado del ciclo de vida
-
-### Responsabilidades por Columna
-
-| Columnas | Responsable | Momento de Completado |
-|----------|-------------|----------------------|
-| 1-3, 15-16 | Analista de Negocio | Fase de Levantamiento |
-| 4-8 | Analista de Negocio + Líder Técnico | Fase de Análisis |
-| 9-10 | Analista de Negocio + Gerente Proyecto | Fase de Planificación |
-| 11 | Gerente de Proyecto | Durante creación de EDT |
-| 12 | Arquitecto de Software / Diseñador UX | Fase de Diseño |
-| 13 | Desarrollador / Líder Técnico | Durante Desarrollo |
-| 14 | Ingeniero de QA | Fase de Pruebas |
-| Actualización 5-6 | Todos (según fase) | Continuo |
-
-### Reportes Basados en la RTM
-
-**Reporte Semanal de Cobertura:**
-- Total de requisitos por estado
-- % de requisitos con trazabilidad completa (todas las columnas completadas)
-- Requisitos bloqueados o en espera con justificación
-- Top 10 requisitos con mayor antigüedad sin avance
-
-**Dashboard Ejecutivo Mensual:**
-- Distribución de requisitos por módulo y prioridad
-- Progreso acumulado de validación de requisitos
-- Mapa de calor de cobertura por columnas de trazabilidad
-- Tendencia de cierre de requisitos por sprint/mes
-
-**Alertas Automáticas:**
-- Requisitos en "Propuesto" >10 días sin aprobación
-- Requisitos "Aprobados" >15 días sin iniciar desarrollo
-- Requisitos sin vinculación a EDT después de aprobados
-- Requisitos "Implementados" >7 días sin validación
+| SIGAA-RF-001 | - | El estudiante debe poder consultar sus notas en tiempo real desde cualquier dispositivo | 1.0 | Aprobado | 15/08/2025 | Usuario visualiza notas actualizadas en menos de 24 horas, todas las asignaturas visibles, responsive en móvil y desktop | Media | OBJ-01: Mejorar experiencia del estudiante y retención | PROJ-01: Digitalizar gestión académica | 1.1.1 | DOC-UI-PORTAL-001 | SIGAA.Portal.Modulo.Notas | TC-SIGAA-001 a TC-SIGAA-005 | Patricio Núñez (Director Académico) | Alta |
+| SIGAA-RF-002 | - | El sistema debe permitir la inscripción de asignaturas online con validación automática de prerequisitos | 1.0 | Aprobado | 15/08/2025 | Validación automática de prerequisitos, bloqueo de asignaturas no disponibles, confirmación inmediata de inscripción | Alta | OBJ-04: Automatizar procesos académicos y reducir carga administrativa | PROJ-01: Digitalizar gestión académica | 1.1.2 | DOC-INSCRIPCION-002 | SIGAA.Academico.Inscripcion | TC-SIGAA-006 a TC-SIGAA-012 | Patricio Núñez (Director Académico) | Alta |
+| SIGAA-RF-003 | - | El docente debe poder ingresar y modificar notas con workflow de aprobación | 1.0 | En Desarrollo | 20/09/2025 | Ingreso individual y masivo de notas, workflow de aprobación de coordinador, auditoría completa de cambios | Media | OBJ-04: Mejorar eficiencia operativa y trazabilidad | PROJ-01: Digitalizar gestión académica | 1.1.2 | DOC-NOTAS-003 | SIGAA.Academico.Notas.Workflow | TC-SIGAA-013 a TC-SIGAA-018 | Patricio Núñez (Director Académico) | Alta |
+| SIGAA-RF-004 | - | El sistema debe generar certificados digitales con firma electrónica avanzada | 1.1 | Aprobado | 22/08/2025 | Certificados en PDF con código QR de verificación, firma electrónica válida legalmente, generación automática en <3 minutos | Alta | OBJ-05: Posicionamiento como institución moderna y digitalizada | PROJ-01: Digitalizar gestión académica | 1.1.4 | DOC-CERT-004 | SIGAA.Certificados.Generator | TC-SIGAA-019 a TC-SIGAA-024 | Patricio Núñez (Director Académico) | Media |
+| SIGAA-RF-005 | - | El sistema debe integrar gestión de pagos con pasarelas de pago online | 2.0 | Aprobado | 28/08/2025 | Integración con Webpay y Mercado Pago, confirmación automática de pago, notificación al estudiante | Alta | OBJ-04: Automatizar procesos financieros | PROJ-01: Digitalizar gestión administrativa | 1.1.3 | DOC-PAGOS-005 | SIGAA.Finanzas.Pagos.API | TC-SIGAA-025 a TC-SIGAA-032 | Tomás Espinoza (Director de Finanzas) | Alta |
+| CAMPUS-RF-001 | - | La plataforma LMS debe soportar videoconferencias para hasta 200 participantes simultáneos | 1.0 | Aprobado | 18/08/2025 | Integración con Zoom/BigBlueButton, grabación automática, calidad HD, sin cortes con conexión >5Mbps | Alta | OBJ-05: Facilitar modalidad de enseñanza híbrida | PROJ-02: Implementar plataforma virtual escalable | 1.2.2 | DOC-VIDEO-001 | Campus.Video.Integration | TC-CAMPUS-001 a TC-CAMPUS-008 | María Inés Zamora (Rectora) | Alta |
+| CAMPUS-RF-002 | - | El docente debe poder crear evaluaciones con banco de preguntas y diferentes tipos de respuesta | 1.0 | En Desarrollo | 25/09/2025 | Soporte V/F, selección múltiple, desarrollo, matching. Banco reutilizable de preguntas, asignación aleatoria | Media | OBJ-05: Mejorar calidad de evaluación en modalidad online | PROJ-02: Implementar LMS funcional | 1.2.4 | DOC-EVAL-002 | Moodle.Quiz.Custom | TC-CAMPUS-009 a TC-CAMPUS-016 | María Inés Zamora (Rectora) | Alta |
+| CAMPUS-RF-003 | - | El estudiante debe poder acceder a materiales de curso offline mediante app móvil | 1.0 | Aprobado | 20/08/2025 | Sincronización automática cuando hay conexión, descarga de PDFs y videos, funcionamiento sin internet | Alta | OBJ-01: Mejorar accesibilidad para estudiantes con conectividad limitada | PROJ-02: Implementar plataforma virtual escalable | 1.2.3 | DOC-MOBILE-003 | Campus.Mobile.Offline | TC-CAMPUS-017 a TC-CAMPUS-024 | María Inés Zamora (Rectora) | Media |
+| CAMPUS-RF-004 | - | El sistema debe enviar notificaciones automáticas de nuevas actividades y deadlines | 1.0 | Aprobado | 20/08/2025 | Notificaciones push, email y SMS, configurables por usuario, recordatorios 24hrs antes de deadline | Baja | OBJ-01: Mejorar engagement y cumplimiento de estudiantes | PROJ-02: Implementar LMS funcional | 1.2.3 | DOC-NOTIF-004 | Campus.Notifications.Service | TC-CAMPUS-025 a TC-CAMPUS-030 | María Inés Zamora (Rectora) | Media |
+| ALERT-RF-001 | - | El sistema debe predecir riesgo de deserción con accuracy mínimo del 85% | 1.0 | Validado | 05/10/2025 | Modelo ML con precision >85%, recall >80%, F1-score >82%, predicción actualizada semanalmente | Alta | OBJ-02: Reducir deserción estudiantil en 30% | PROJ-03: Implementar analítica predictiva con IA | 1.3.3 | DOC-ML-001 | Alert.ML.PredictionEngine | TC-ALERT-001 a TC-ALERT-010 | Carolina Rivas (Vinculación con el Medio) | Alta |
+| ALERT-RF-002 | - | El sistema debe identificar factores de riesgo y generar alertas automáticas a tutores | 1.0 | Implementado | 08/10/2025 | Identificación de top 5 factores de riesgo, alertas en <48hrs, dashboard con estudiantes en riesgo crítico | Alta | OBJ-02: Intervención temprana para prevenir deserción | PROJ-03: Implementar sistema de alertas | 1.3.2 | DOC-ALERT-002 | Alert.Dashboard.RiskFactors | TC-ALERT-011 a TC-ALERT-018 | Carolina Rivas (Vinculación con el Medio) | Alta |
+| ALERT-RF-003 | - | El tutor debe poder registrar intervenciones y hacer seguimiento de estudiantes en riesgo | 1.0 | En Desarrollo | 15/10/2025 | Registro de tipo de intervención, fecha, resultado, seguimiento histórico completo, indicadores de efectividad | Media | OBJ-02: Gestionar intervenciones de retención sistemáticamente | PROJ-03: Implementar panel de seguimiento | 1.3.2 | DOC-INTERV-003 | Alert.Tutor.Intervention | TC-ALERT-019 a TC-ALERT-025 | Carolina Rivas (Vinculación con el Medio) | Alta |
+| ALERT-RF-004 | - | El sistema debe enviar comunicaciones automatizadas personalizadas a estudiantes en riesgo | 1.1 | Aprobado | 18/10/2025 | Templates personalizables, envío por email/WhatsApp, tracking de apertura, respuesta automática | Media | OBJ-02: Automatizar comunicaciones de retención | PROJ-03: Implementar intervención automatizada | 1.3.4 | DOC-COMUN-004 | Alert.Communication.Auto | TC-ALERT-026 a TC-ALERT-032 | Carolina Rivas (Vinculación con el Medio) | Media |
+| CRM-RF-001 | - | El sistema debe capturar leads desde múltiples canales digitales (web, redes sociales, email) | 1.0 | Aprobado | 22/08/2025 | Integración con Facebook Ads, Instagram, formulario web, captura automática de datos, asignación automática a ejecutivo | Alta | OBJ-01: Aumentar captación de estudiantes potenciales | PROJ-04: Automatizar gestión de admisión | 1.4.1 | DOC-LEAD-001 | CRM.Leads.Capture | TC-CRM-001 a TC-CRM-008 | Paula Araya (Jefa de Admisión) | Alta |
+| CRM-RF-002 | - | El ejecutivo de admisión debe poder hacer seguimiento completo del prospecto con scoring automático | 1.0 | En Desarrollo | 28/09/2025 | Lead scoring basado en interacción, historial completo de contactos, alertas de seguimiento, conversión a matrícula | Alta | OBJ-01: Mejorar tasa de conversión de leads a matriculados | PROJ-04: Implementar CRM funcional | 1.4.1 | DOC-SCORING-002 | CRM.Leads.Scoring | TC-CRM-009 a TC-CRM-016 | Paula Araya (Jefa de Admisión) | Alta |
+| CRM-RF-003 | - | El sistema debe automatizar campañas de email marketing segmentadas por perfil | 1.0 | Aprobado | 25/08/2025 | Segmentación por carrera de interés, edad, región, envío programado, A/B testing, métricas de conversión | Media | OBJ-01: Optimizar comunicaciones de marketing | PROJ-04: Automatizar comunicaciones | 1.4.3 | DOC-EMAIL-003 | CRM.Marketing.Campaigns | TC-CRM-017 a TC-CRM-024 | Paula Araya (Jefa de Admisión) | Media |
+| CRM-RF-004 | - | El sistema debe generar formularios de postulación inteligentes con validación en tiempo real | 1.0 | Aprobado | 25/08/2025 | Formulario adaptativo según carrera, validación de RUT, carga de documentos, guardado automático, confirmación por email | Alta | OBJ-04: Simplificar proceso de postulación | PROJ-04: Automatizar admisión | 1.4.2 | DOC-FORM-004 | CRM.Forms.Smart | TC-CRM-025 a TC-CRM-032 | Paula Araya (Jefa de Admisión) | Alta |
+| CRM-RF-005 | - | El dashboard debe mostrar métricas de rendimiento de campañas y conversión en tiempo real | 1.0 | Aprobado | 28/08/2025 | KPIs de leads generados, tasa de conversión, costo por lead, ROI de campañas, visualización interactiva | Media | OBJ-04: Toma de decisiones basada en datos | PROJ-04: Implementar dashboard analítico | 1.4.4 | DOC-DASH-005 | CRM.Dashboard.Analytics | TC-CRM-033 a TC-CRM-040 | Mariela Salazar (Comunicaciones) | Media |
+| INFRA-RNF-001 | - | La infraestructura debe garantizar 99.5% de disponibilidad con balanceo de carga automático | 1.0 | Aprobado | 20/08/2025 | Uptime >99.5%, balanceadores AWS ELB configurados, failover automático <30 segundos, monitoreo 24/7 | Alta | OBJ-05: Garantizar continuidad operativa | PROJ-05: Migrar a infraestructura cloud | 1.5.1 | DOC-AWS-001 | AWS.ECS.LoadBalancer | TC-INFRA-001 a TC-INFRA-008 | Sebastián Bravo (Director TI) | Alta |
+| INFRA-RNF-002 | - | El sistema debe cumplir con encriptación end-to-end y estándares ISO 27001 | 1.0 | Aprobado | 20/08/2025 | Encriptación TLS 1.3, datos en reposo con AES-256, auditoría completa de accesos, cumplimiento GDPR chileno | Alta | OBJ-05: Proteger datos sensibles de estudiantes y personal | PROJ-05: Implementar seguridad robusta | 1.5.2 | DOC-SEC-002 | AWS.Security.Encryption | TC-INFRA-009 a TC-INFRA-016 | Sebastián Bravo (Director TI) | Alta |
+| INFRA-RNF-003 | - | El sistema debe responder en menos de 2 segundos para el 95% de las transacciones | 1.0 | En Desarrollo | 25/09/2025 | Response time <2seg percentil 95, <5seg percentil 99, optimización de queries, CDN para contenido estático | Alta | OBJ-01: Garantizar buena experiencia de usuario | PROJ-05: Optimizar rendimiento | 1.5.1 | DOC-PERF-003 | AWS.CloudFront.CDN | TC-INFRA-017 a TC-INFRA-024 | Sebastián Bravo (Director TI) | Alta |
+| INFRA-RNF-004 | - | El sistema debe realizar backups automáticos diarios con retención de 30 días | 1.0 | Aprobado | 22/08/2025 | Backup automático diario a las 02:00 AM, replicación multi-región, pruebas de restauración mensuales, RTO <4 horas | Media | OBJ-05: Proteger información institucional crítica | PROJ-05: Implementar respaldos | 1.5.2 | DOC-BACKUP-004 | AWS.S3.Backup | TC-INFRA-025 a TC-INFRA-032 | Sebastián Bravo (Director TI) | Alta |
+| INFRA-RF-001 | - | El sistema debe integrarse con sistema de Single Sign-On (SSO) para todas las plataformas | 1.0 | Aprobado | 25/08/2025 | Autenticación única para SIGAA, Campus Virtual+, CRM, integración con Active Directory, 2FA obligatorio para admin | Alta | OBJ-04: Simplificar acceso a múltiples sistemas | PROJ-06: Integrar sistemas institucionales | 1.5.3 | DOC-SSO-005 | Integration.Auth.SSO | TC-INFRA-033 a TC-INFRA-040 | Sebastián Bravo (Director TI) | Alta |
 
 ---
 
@@ -760,8 +545,6 @@ Los estados posibles en la columna "Estado actual" y su significado:
 - **Anexo I:** Casos de Uso del Sistema
 - **Anexo J:** Criterios de Aceptación Detallados
 - **Anexo K:** Log de Cambios de Requerimientos
-
-
 
 
 
