@@ -64,6 +64,36 @@
 ---
 ### Introducción
 
+# Introducción al Plan de Dirección del Proyecto
+
+## Descripción de Alto Nivel del Proyecto
+
+### ¿De qué se trata?
+
+El proyecto "Transformación Digital Integral" consiste en la modernización completa de la infraestructura tecnológica y sistemas académicos del Instituto Técnico Profesional Crecer Más. Se implementarán cuatro módulos tecnológicos integrados: Sistema de Gestión Académica y Administrativa, Campus Virtual+, Sistema de Alerta Temprana con Analítica Predictiva, y CRM Educativo con Plataforma de Admisión Automatizada.
+
+### Razón de Ser
+
+La institución enfrenta importantes brechas tecnológicas que limitan su crecimiento y competitividad: procesos manuales de matrícula, falta de trazabilidad académica, escasa presencia digital, infraestructura limitada para comunicación entre sedes, y carencia de herramientas escalables de gestión estudiantil. Esta transformación es crítica para posicionar al instituto como líder en formación técnica con modalidad híbrida a nivel nacional.
+
+### Alcance del Proyecto
+
+El proyecto abarcará las tres sedes actuales (San Bernardo, Maipú y Renca) con una población de 2.500 estudiantes. Incluye la implementación de arquitectura en la nube (AWS), migración de sistemas legacy, integración de plataformas educativas, desarrollo de capacidades de inteligencia artificial para predicción de deserción, y habilitación de servicios digitales para estudiantes, docentes y personal administrativo.
+
+### Beneficios Esperados
+
+- **Crecimiento:** Duplicación de matrícula en 5 años
+- **Retención:** Reducción de deserción estudiantil en 30%
+- **Expansión:** Habilitación para crecimiento a 3 regiones adicionales
+- **Eficiencia:** Automatización de procesos administrativos y académicos
+- **Competitividad:** Mejor posicionamiento y reputación digital
+- **Experiencia:** Mejora significativa en servicios estudiantiles y docentes
+
+### Inversión y Modalidad
+
+**Inversión Total:** $480.000.000 CLP distribuidos en 18 meses de ejecución
+
+**Modalidad de Ejecución:** Enfoque híbrido que combina metodologías predictivas para infraestructura y componentes ágiles para desarrollo de software, con entregas incrementales por módulo para minimizar riesgos y maximizar valor temprano.
 
 ---
 ### [Plan de gestión del alcance](./Plan%20de%20Gestión%20de%20Alcance/index.md)
