@@ -98,6 +98,182 @@ El proyecto abarcará las tres sedes actuales (San Bernardo, Maipú y Renca) con
 ---
 ### [Plan de gestión del alcance](./Plan%20de%20Gestión%20de%20Alcance/index.md)
 
+# Plan de Gestión del Alcance
+
+## 1. Procedimientos para Elaborar la Definición de Alcance
+
+### Metodología de Definición
+
+El alcance del proyecto será definido mediante un proceso estructurado que incluye:
+
+- **Recopilación de requisitos** mediante entrevistas con stakeholders clave (Rectora, Directores, Coordinadores de Carrera)
+- **Talleres de levantamiento** con usuarios finales por cada módulo tecnológico
+- **Análisis de procesos actuales** y documentación de brechas tecnológicas identificadas
+- **Revisión de documentación existente** y evaluación de sistemas legacy
+- **Validación formal** con patrocinadores de cada módulo antes de la aprobación final
+
+### Documentación del Alcance
+
+La definición de alcance incluirá:
+
+- **Alcance del producto:** Descripción detallada de los cuatro módulos tecnológicos y sus características
+- **Alcance del proyecto:** Trabajo necesario para entregar el producto con las especificaciones requeridas
+- **Criterios de aceptación:** Condiciones que deben cumplirse para aprobar cada entregable
+- **Exclusiones del proyecto:** Elementos explícitamente fuera del alcance
+- **Restricciones:** Limitaciones técnicas, presupuestarias y de tiempo
+- **Supuestos:** Premisas consideradas verdaderas para la planificación
+
+---
+
+## 2. Procedimientos para Elaborar la Estructura de Desglose de Trabajo (EDT)
+
+### Metodología para Crear la EDT
+
+La EDT del proyecto se desarrollará siguiendo estos lineamientos:
+
+- **Descomposición jerárquica** orientada a entregables verificables
+- **Descomposición progresiva** hasta alcanzar paquetes de trabajo de 40-80 horas de duración
+- **Numeración jerárquica estándar** (1.1, 1.1.1, 1.1.2, etc.) según estándares PMI
+- **Identificación de entregables** por cada nivel de descomposición
+- **Vinculación directa** con el cronograma del proyecto y la estructura de costos
+- **Validación** con líderes técnicos y patrocinadores de cada módulo
+
+### Niveles de la EDT
+
+La estructura contempla los siguientes niveles:
+
+- **Nivel 1:** Proyecto completo (Transformación Digital Integral)
+- **Nivel 2:** Módulos principales del proyecto (SIGAA, Campus Virtual+, Alerta Temprana, CRM, Infraestructura)
+- **Nivel 3:** Componentes específicos por módulo
+- **Nivel 4:** Paquetes de trabajo detallados
+
+### Herramientas y Documentación
+
+- **Herramienta principal:** Microsoft Project para desarrollo y control
+- **Diccionario de la EDT:** Documento complementario con descripciones detalladas de cada elemento
+- **Control de versiones:** Registro formal de cambios en la estructura
+
+> **Nota:** La EDT completa del proyecto se encuentra disponible en el **Anexo A: Estructura de Desglose del Trabajo**.
+
+---
+
+## 3. Procedimientos de Aprobación y Modificación de la Línea Base de Alcance
+
+### Línea Base de Alcance
+
+La línea base de alcance está compuesta por:
+
+- Enunciado del alcance del proyecto aprobado
+- Estructura de Desglose del Trabajo (EDT)
+- Diccionario de la EDT
+
+### Autoridades de Aprobación por Nivel de Impacto
+
+Los cambios a la línea base de alcance requieren aprobación según su magnitud:
+
+| Tipo de Cambio | Impacto Económico | Autoridad de Aprobación |
+|----------------|-------------------|-------------------------|
+| **Cambios Menores** | < $5.000.000 | Gerente de Proyecto (Ignacio Beltrán) |
+| **Cambios Moderados** | $5M - $15M | Patrocinador del Módulo + Director de Finanzas |
+| **Cambios Mayores** | $15M - $30M | Comité Ejecutivo + Rectora |
+| **Cambios Críticos** | > $30.000.000 | Aprobación unánime del Comité Ejecutivo |
+
+### Proceso de Gestión de Cambios
+
+Todo cambio a la línea base de alcance debe seguir este procedimiento:
+
+1. **Solicitud formal de cambio** utilizando el formato estandarizado con justificación de negocio y técnica
+2. **Análisis de impacto** en alcance, cronograma, costos, calidad y riesgos del proyecto
+3. **Evaluación técnica** por el Gerente de Proyecto y Director de TI
+4. **Presentación** a la autoridad de aprobación correspondiente según tabla de umbrales
+5. **Decisión formal** con registro de aprobación o rechazo y justificación
+6. **Comunicación** de la decisión a todos los stakeholders afectados
+7. **Actualización** de la línea base y toda la documentación relacionada del proyecto
+
+### Registro y Trazabilidad
+
+- Todas las solicitudes de cambio serán registradas en el **Log de Control de Cambios**
+- Se mantendrá histórico completo de cambios aprobados y rechazados
+- Las versiones de la línea base serán controladas y archivadas formalmente
+
+---
+
+## 4. Procedimientos de Aprobación de los Entregables
+
+### Criterios de Aceptación
+
+Cada entregable del proyecto debe cumplir con:
+
+- **Requisitos funcionales** documentados y acordados con el patrocinador
+- **Estándares de calidad** técnicos y de usuario definidos en el plan de calidad
+- **Pruebas exitosas** de funcionalidad, rendimiento y seguridad
+- **Documentación completa** técnica y de usuario según templates establecidos
+- **Capacitación impartida** al personal responsable de operar el entregable
+
+### Proceso de Validación y Aprobación
+
+El proceso formal de aprobación de entregables contempla:
+
+1. **Revisión Técnica Interna**
+   - Equipo de TI valida funcionalidades técnicas
+   - Verificación de cumplimiento de requisitos no funcionales
+   - Ejecución de pruebas técnicas y de integración
+
+2. **Pruebas de Aceptación de Usuario (UAT)**
+   - Usuarios finales ejecutan casos de prueba específicos
+   - Validación de usabilidad y cumplimiento de expectativas
+   - Registro formal de resultados y observaciones
+
+3. **Aprobación Funcional**
+   - Patrocinador del módulo revisa y aprueba el entregable
+   - Validación de alineamiento con objetivos de negocio
+   - Confirmación de criterios de aceptación cumplidos
+
+4. **Aprobación Final del Gerente de Proyecto**
+   - Verificación de completitud de documentación
+   - Confirmación de liberación de recursos
+   - Autorización para puesta en producción
+
+5. **Registro Formal**
+   - Elaboración de Acta de Aceptación firmada
+   - Actualización del estado en el sistema de gestión del proyecto
+   - Archivo en repositorio oficial del proyecto
+
+### Responsables de Aprobación por Módulo
+
+| Módulo | Patrocinador Responsable | Cargo |
+|--------|-------------------------|-------|
+| **SIGAA** | Patricio Núñez | Director Académico |
+| **Campus Virtual+** | María Inés Zamora | Rectora |
+| **Sistema Alerta Temprana** | Carolina Rivas | Directora de Vinculación con el Medio |
+| **CRM Educativo** | Paula Araya | Jefa de Admisión |
+| **Infraestructura** | Sebastián Bravo | Director de TI |
+
+### Frecuencia de Revisiones
+
+- **Revisiones de avance:** Semanales por módulo con líderes técnicos
+- **Revisiones formales:** Quincenales con el Gerente de Proyecto
+- **Presentaciones ejecutivas:** Mensuales al Comité Ejecutivo
+- **Aprobaciones de hitos:** Según cronograma establecido en el plan de proyecto
+
+### Gestión de No Conformidades
+
+Si un entregable no cumple con los criterios de aceptación:
+
+- Se registra formalmente la no conformidad identificada
+- Se genera un plan de acción correctiva con responsables y fechas
+- Se reprograma la validación una vez implementadas las correcciones
+- Se escala al Comité Ejecutivo si la no conformidad impacta hitos críticos
+
+---
+
+## Documentos de Referencia
+
+- **Anexo A:** Estructura de Desglose del Trabajo (EDT) del Proyecto
+- **Anexo B:** Diccionario de la EDT
+- **Anexo C:** Matriz de Trazabilidad de Requisitos
+- **Anexo D:** Formato de Solicitud de Cambio de Alcance
+- **Anexo E:** Template de Acta de Aceptación de Entregables
 
 ---
 ### [Plan de gestión de requerimientos]()
