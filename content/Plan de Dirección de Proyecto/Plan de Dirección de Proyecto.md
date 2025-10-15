@@ -555,9 +555,68 @@ Frecuencia de reuniones: Semanal o según demanda
 ## <a name="_toc15313864"></a>**Plan de gestión del cronograma**
 Para consultar las instrucciones para completar la plantilla de plan de dirección de proyectos visita [**este enlace**](http://www.pmoinformatica.com/2019/07/plan-direccion-proyecto-plantilla.html).
 
+## Plan de Gestión del Cronograma
 
+El Plan de Gestión del Cronograma establece los criterios, políticas y procedimientos para desarrollar, monitorear, controlar y gestionar el cronograma del proyecto de Transformación Digital del Instituto Crecer Más, con el objetivo de asegurar que la duración final se ajuste a los rangos de tiempo estimados por cada módulo (10 a 18 meses).
 
+### 1. Metodología y Enfoque de Desarrollo
 
+Dado el carácter complejo del proyecto (desarrollo de software y migración de infraestructura), se utilizará un enfoque **Híbrido**:
+
+* **Enfoque Predictivo (Cascada):** Se aplicará a la fase de **Infraestructura Cloud (AWS)**, ya que requiere una planificación secuencial y detallada de la migración de servidores, configuración de EKS, despliegue de bases de datos (MongoDB, PostgreSQL) y establecimiento de la arquitectura de seguridad. Esta fase es una precondición para el desarrollo de los módulos.
+* **Enfoque Adaptativo (Scrum/Ágil):** Se aplicará al desarrollo y construcción de los cuatro módulos de software (**SIGAA, Campus Virtual+, Alerta Temprana, CRM**). Esto permitirá gestionar los requisitos cambiantes, priorizar las características más importantes con los *Product Owners* y entregar valor en iteraciones cortas.
+
+### 2. Estructura y Herramientas para Elaborar el Cronograma
+
+| Actividad | Herramienta/Estándar | Detalle de Aplicación |
+| :--- | :--- | :--- |
+| **Modelado del Cronograma** | Diagrama de Red (Precedencia) | Se utilizará para la fase Predictiva (AWS) para definir la ruta crítica y las dependencias (ej. el entorno productivo de AWS debe estar operativo antes de la fase de Pruebas de Integración). |
+| **Estimación de Duración** | Estimación por **Puntos de Historia** | Utilizada en la fase Adaptativa (Scrum) para medir el esfuerzo de los *Paquetes de Trabajo* (historias de usuario) de cada módulo. |
+| **Gestión del Cronograma** | Jira Software o Azure DevOps | Plataforma centralizada para la creación de *Sprints* (de 2 semanas), tableros Kanban, seguimiento de horas trabajadas y visualización del *Burn-down chart*. |
+
+### 3. Duración de Iteraciones y Releases
+
+| Módulo/Fase | Duración Estimada | Duración de Iteración (Scrum) | Frecuencia de Releases (Entregas al Cliente) |
+| :--- | :--- | :--- | :--- |
+| **SIGAA (Integración y Migración)** | 18 meses | Sprints de 2 semanas | Release cada 2 meses (Incremento de Producto) |
+| **Campus Virtual+ (Moodle y Diseño)** | 12 meses | Sprints de 2 semanas | Release cada 4 semanas (Entregable Mínimo Funcional) |
+| **Sistema de Alerta Temprana** | 15 meses | Sprints de 2 semanas | Release cada 6 semanas (Modelos de IA desplegados) |
+| **CRM Educativo y Admisión** | 10 meses | Sprints de 2 semanas | Release cada 4 semanas (Nuevas funcionalidades de automatización) |
+| **Infraestructura Cloud (AWS)** | 6 meses (Paralelo) | N/A (Predictivo) | Entrega única de la Arquitectura Operacional |
+
+***Nota:*** *La duración total del proyecto está determinada por el módulo más largo, **SIGAA**, proyectando una finalización dentro de los 18 meses establecidos.*
+
+### 4. Nivel de Exactitud Exigido para las Estimaciones
+
+La exactitud de las estimaciones se ajustará a medida que el proyecto avance y se obtenga mayor detalle (Estimación Progresiva):
+
+* **Fase de Planificación (Actual):** **Estimación del orden de magnitud (ROM)**, con un rango de precisión de $\pm 25\%$ (utilizando los costos y duraciones globales definidos en el caso práctico).
+* **Fase de Ejecución (Sprints):** **Estimación Definitiva**, con un rango de precisión de $\pm 10\%$ para los paquetes de trabajo del *Sprint* actual y los dos siguientes (basado en la estimación del equipo de desarrollo, usando Puntos de Historia).
+
+### 5. Procedimiento para Actualizar el Estatus del Cronograma
+
+1.  **Seguimiento Semanal (Scrum Master):** Al inicio de cada *Sprint* (cada dos semanas), el *Scrum Master* actualizará el progreso en Jira, revisando el estado de las tareas del equipo de desarrollo (Módulos Adaptativos).
+2.  **Reporte de Avance Físico (Gerente de Proyecto):** Semanalmente, el Gerente de Proyecto de TI (**Sebastián Bravo**) actualizará el avance de la fase Predictiva (AWS) en porcentaje de completitud.
+3.  **Cálculo del Valor Ganado (EV):** Mensualmente, se calculará el **Valor Ganado (EV)** comparando la **Línea Base del Cronograma** formalizada con el trabajo realmente ejecutado y medido, utilizando los **Índices de Desempeño del Cronograma (SPI)**.
+4.  **Aprobación:** Los cambios mayores en la Línea Base del Cronograma deberán ser revisados y aprobados por el **Comité de Control de Cambios (CCB)** del proyecto.
+
+### 6. Umbrales y Reglas para el Control
+
+Se establecerán umbrales de variación a partir de los cuales se requerirá una acción correctiva, preventiva o una solicitud de cambio formal:
+
+| Métrica | Umbral (Desviación) | Acción Requerida |
+| :--- | :--- | :--- |
+| **Índice de Desempeño del Cronograma (SPI)** | $\text{SPI} \leq 0.95$ | Identificar la causa raíz del retraso y aplicar una acción preventiva o correctiva a nivel de tareas. |
+| **SPI** | $\text{SPI} \leq 0.90$ | Solicitar al Comité de Control de Cambios (CCB) la aprobación de una *Recalculación de la Línea Base del Cronograma* o una aceleración (Crashing/Fast Tracking). |
+| **Desviación de Fechas Clave** | Retraso de $\geq 2$ semanas en una *Milestone* clave | Revisión urgente con los *Product Owners* y los Gerentes de Proyecto responsables de los módulos afectados. |
+
+### 7. Formatos y Frecuencia de los Reportes de Cronograma
+
+| Reporte | Contenido Clave | Frecuencia | Distribución |
+| :--- | :--- | :--- | :--- |
+| **Reporte de Progreso de Sprints** | *Burn-down Chart*, Velocidad del Equipo, Impedimentos. | Cada 2 semanas (Reunión de Revisión de Sprint) | Equipo de Desarrollo, Product Owners, Scrum Master. |
+| **Informe de Desempeño Mensual** | **SPI** (Índice de Desempeño del Cronograma), Variación de Fechas Clave, Riesgos de Cronograma. | Mensual | Gerentes de Proyecto (**Sebastián Bravo, Mariela Salazar**), Patrocinadores (**María Inés Zamora, Carolina Rivas, Paula Araya**). |
+| **Línea Base del Cronograma** | Diagrama de Gantt detallado (solo para fase Predictiva), fechas de inicio y fin de *Milestones*. | Una vez formalizada, y solo tras aprobación del CCB. | Director TI, Gerente de Proyecto de TI, CCB. |
 
 
 
