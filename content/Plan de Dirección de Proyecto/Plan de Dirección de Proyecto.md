@@ -837,7 +837,7 @@ Se define la siguiente matriz para clarificar el nivel de participación y respo
 
 El organigrama sigue una estructura matricial, donde el equipo técnico reporta funcionalmente a los *Product Owners* y administrativamente a los Gerentes de Proyecto, bajo la dirección estratégica de la Rectora.
 
-```mermaid
+mermaid
 graph TD
     A[Rectora / Patrocinador Principal<br/>María Inés Zamora] --> B(Comité de Control de Cambios CCB);
     B --> C(Gerente de Proyecto TI<br/>Sebastián Bravo);
@@ -848,7 +848,21 @@ graph TD
     F --> G[QA/Testing];
     F --> H[Especialistas de AWS];
 
+### 7. Plan de Reconocimientos y Recompensa
 
+Se implementará un plan de incentivos para fomentar la motivación y el alto desempeño del equipo técnico:
+
+* **Reconocimiento de Logros (Sprint):** Reconocimiento público del equipo o individuo por el cumplimiento sobresaliente del *Goal* del *Sprint* en las reuniones de Revisión de *Sprint* y la comunicación interna.
+* **Bonos por *Milestone***: Se otorgará una compensación económica al equipo completo si se cumplen los hitos clave del proyecto, como la puesta en marcha exitosa de la **Infraestructura Cloud (AWS)** y el *Go-Live* del módulo **SIGAA**.
+* **Incentivos por Capacitación:** Financiamiento de certificaciones profesionales de AWS o Scrum a los miembros del equipo interno que demuestren compromiso con la transferencia de conocimiento.
+
+### 8. Plan de Control de Recursos Físicos
+
+El control de los recursos físicos y tecnológicos se centrará en el monitoreo del consumo de AWS:
+
+* **Monitoreo de Consumo:** Utilización de **AWS CloudWatch** y **AWS Cost Explorer** para rastrear el uso de recursos (EC2, EKS, RDS) en tiempo real, asegurando que se mantengan dentro de la Línea Base de Costo.
+* **Liberación de Recursos:** Una vez que un servicio de infraestructura *legacy* haya sido migrado a AWS y desactivado con éxito, el Gerente de Proyecto TI firmará su liberación y baja para eliminar costos recurrentes de hardware.
+* **Seguimiento de Activos:** Registro de las licencias de software (CRM) en un inventario centralizado, controlando la fecha de vencimiento y el número de usuarios.
 
 
 
