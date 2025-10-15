@@ -628,7 +628,71 @@ Se establecerán umbrales de variación a partir de los cuales se requerirá una
 Descarga nuestra [**plantilla de presupuesto de un proyecto**](http://www.pmoinformatica.com/2014/10/presupuesto-de-un-proyecto.html) siguiendo el enlace.
 
 
+## Plan de Gestión de Costos
 
+Este plan establece la manera en que se planificarán, estructurarán, estimarán, presupuestarán y controlarán los costos del Proyecto de Transformación Digital Integral de Crecer Más, con un presupuesto total de $\text{\$480.000.000}$ CLP.
+
+### 1. Descripción de las Decisiones del Presupuesto
+
+El presupuesto total se ha asignado de manera detallada por cada Módulo de Producto y una partida de contingencia general. Las decisiones clave sobre el presupuesto son:
+
+* **Estimación Analógica y Paramétrica:** Se utilizaron valores históricos (benchmarks) de proyectos similares de transformación digital en instituciones educativas (estimación paramétrica), ajustados por la complejidad y la nueva arquitectura Cloud (AWS).
+* **Fondos de Contingencia:** Se ha asignado una reserva de gestión y una reserva de contingencia para cubrir riesgos identificados y cambios no previstos, asegurando la solidez financiera.
+
+A continuación, se presenta la distribución detallada de los costos (conforme a la plantilla de presupuesto adjunta):
+
+| WBS | Nombre del Componente / Paquete de Trabajo | Costo Estimado (CLP) | Observaciones |
+| :--- | :--- | :--- | :--- |
+| **2.0** | **Módulo SIGAA (Migración y Adaptación)** | $\text{\$160.000.000}$ | Incluye desarrollo backend en Python/FastAPI, migración de datos y testing integral. |
+| **3.0** | **Módulo Campus Virtual+ (Moodle y Diseño)** | $\text{\$80.000.000}$ | Incluye diseño instruccional, infraestructura Moodle, y desarrollo frontend con Vue.js. |
+| **4.0** | **Módulo Sistema de Alerta Temprana** | $\text{\$160.000.000}$ | Mayor costo debido al motor de IA, servidores EC2 dedicados, y el uso de modelos analíticos. |
+| **5.0** | **Módulo CRM Educativo y Admisión** | $\text{\$80.000.000}$ | Incluye licencias base (si aplica Salesforce) o implementación de EspoCRM y automatización. |
+| **6.0** | **Reserva de Contingencia (5\%)** | $\text{\$24.000.000}$ | Para cubrir costos por riesgos identificados (ej. problemas de integración de APIs o sobrecostos de AWS). |
+| **7.0** | **Reserva de Gestión (3\%)** | $\text{\$14.400.000}$ | Para cambios no planificados, bajo la autoridad de la Rectora (**María Inés Zamora**). |
+| **TOTAL GENERAL** | | **$\text{\$480.000.000}$** | |
+
+### 2. Procedimientos para el Registro de Costos
+
+Los costos serán registrados y controlados de la siguiente manera:
+
+* **Periodo de Registro:** Todos los costos (horas, licencias, uso de AWS) se registrarán semanalmente en el sistema de gestión de proyectos (Jira/Azure DevOps).
+* **Código de Cuentas:** Cada transacción se vinculará a un código de cuenta específico (ej., *Mano de Obra*, *Licencias*, *Infraestructura AWS*) y al número del Paquete de Trabajo dentro de la **EDT** para una trazabilidad clara.
+* **Aprobación de Desembolsos:** Los gastos mayores a $\text{\$2.000.000}$ CLP requerirán la aprobación del Gerente de Proyecto (**Sebastián Bravo** o **Mariela Salazar**) y la validación del Director de TI.
+
+### 3. Unidades de Medida, Niveles de Precisión y Exactitud
+
+| Concepto | Unidad de Medida | Nivel de Precisión | Nivel de Exactitud |
+| :--- | :--- | :--- | :--- |
+| **Mano de Obra** | Hora/Hombre (HH) | $\text{\$100}$ CLP | $\pm 10\%$ (Estimación de *Sprints* o tareas) |
+| **Infraestructura Cloud (AWS)** | Uso por mes (dólares convertidos a CLP) | $\text{\$1.000}$ CLP | $\pm 5\%$ (Basado en consumos históricos proyectados) |
+| **Licencias de Software** | Costo Fijo Mensual o Anual (CLP) | N/A | $\pm 0\%$ (Costo fijo contractual) |
+
+El nivel de exactitud para la **Línea Base del Costo** (suma de los paquetes de trabajo) se establece en $\pm 15\%$ una vez que el presupuesto esté formalizado.
+
+### 4. Vínculos con la Estructura de Desglose de Trabajo (EDT)
+
+Se utilizarán las cuentas de control de la **EDT** para el seguimiento de costos:
+
+* **Cuentas de Control:** Cada Componente principal de la EDT (2.0 SIGAA, 3.0 Campus Virtual+, 4.0 Alerta Temprana, 5.0 CRM) constituye una Cuenta de Control separada.
+* **Integración:** Los costos se sumarán a nivel de Paquete de Trabajo (Nivel 4 de la EDT) y se consolidarán en la Cuenta de Control de Nivel 2.
+* **Curva S:** La línea base de costo (**LBC**) se representará como una Curva S, que muestra el gasto acumulado planificado a lo largo del cronograma, contra la cual se medirá el costo real (**AC**).
+
+### 5. Umbrales para el Control y Reglas de Medición de Desempeño
+
+El control se realizará a través del **Análisis del Valor Ganado (EVM)**, con los siguientes umbrales:
+
+* **Índice de Desempeño del Costo (CPI):** Mide la eficiencia de los costos ($\text{CPI} = \text{EV} / \text{AC}$).
+    * **Umbral:** Si $\text{CPI} < 0.95$, se requiere un análisis de varianza para identificar las causas del sobrecosto.
+    * **Acción:** Si $\text{CPI} < 0.90$, se debe presentar una Solicitud de Cambio al **Comité de Control de Cambios (CCB)** para ajustar el alcance o solicitar la liberación de la **Reserva de Contingencia**.
+* **Varianza de Costo (CV):** La varianza acumulada de costos no debe exceder los $\text{\$5.000.000}$ CLP sin la aprobación del Gerente de Proyecto y Director de TI.
+
+### 6. Formatos y Frecuencia de los Reportes
+
+| Reporte | Contenido Clave | Frecuencia | Distribución |
+| :--- | :--- | :--- | :--- |
+| **Reporte de Costos por Módulo** | Gasto Real vs. Planeado (AC vs PV) por Cuenta de Control, gasto de Reserva de Contingencia. | Mensual | Gerentes de Proyecto (**Sebastián Bravo, Mariela Salazar**), Director TI. |
+| **Informe de Desempeño Mensual** | **CPI** (Índice de Desempeño del Costo), **CV** (Varianza del Costo), Proyección al final del proyecto (ETC/EAC). | Mensual | Patrocinadores (**María Inés Zamora, Carolina Rivas, Paula Araya**), CCB. |
+| **Línea Base de Costo (LBC)** | Presupuesto detallado y autorizado por periodo de tiempo. | Una vez, y solo tras aprobación del CCB. | Director TI, Gerente de Proyecto de TI, CCB. |
 
 
 
@@ -638,7 +702,63 @@ Descarga nuestra [**plantilla de presupuesto de un proyecto**](http://www.pmoinf
 Para consultar las instrucciones para completar la plantilla de plan de dirección de proyectos visita [**este enlace**](http://www.pmoinformatica.com/2019/07/plan-direccion-proyecto-plantilla.html).
 
 
+## Plan de Gestión de Calidad
 
+Este plan describe cómo se implementarán en el proyecto de Transformación Digital las políticas, metodologías y estándares para garantizar que los entregables y el desempeño del proyecto cumplan con las expectativas y los criterios de aceptación definidos en la Matriz de Trazabilidad de Requisitos (RTM).
+
+### 1. Objetivos y Estándares de Calidad
+
+Los objetivos de calidad están directamente ligados a los objetivos de negocio del Instituto Crecer Más (duplicación de matrícula, reducción de deserción, expansión nacional).
+
+| Categoría | Objetivo de Calidad | Estándar de Medición |
+| :--- | :--- | :--- |
+| **Funcionalidad** | Cumplimiento del $\text{100\%}$ de los Requisitos Funcionales (RF) de la RTM. | Tasa de Aprobación de Pruebas de Aceptación (UAT) $\geq 95\%$. |
+| **Rendimiento** | Optimización de la experiencia del usuario y respuesta rápida de los sistemas. | **Tiempos de respuesta** de las transacciones clave (ej. inicio de sesión, matrícula) $\leq 3$ segundos (percentil 95). |
+| **Seguridad** | Protección de la información sensible del estudiante y del instituto (requisito de confidencialidad). | $\text{0}$ vulnerabilidades de seguridad de nivel **Crítico o Alto** detectadas en auditorías externas. |
+| **Arquitectura** | Solidez, escalabilidad y mantenibilidad del nuevo ecosistema Cloud (AWS). | Cumplimiento del $\text{100\%}$ de las guías de arquitectura (Well-Architected Framework) en la fase de infraestructura. |
+| **Disponibilidad** | Garantizar el acceso a las plataformas en línea. | **Uptime** de las plataformas críticas (SIGAA, Campus Virtual+) $\geq 99.9\%$. |
+
+### 2. Actividades de Gestión y Control de Calidad Planificadas
+
+| Actividad | Fase Aplicada | Responsable Clave | Descripción |
+| :--- | :--- | :--- | :--- |
+| **Reuniones de Revisión de Sprint** | Ejecución (Módulos Adaptativos) | *Product Owner* | Revisión y aceptación formal de los Paquetes de Trabajo completados en cada *Sprint* de 2 semanas, asegurando que se cumplen los Criterios de Aceptación. |
+| **Pruebas Unitarias y de Integración** | Ejecución (Toda la Arquitectura) | Equipo de Desarrollo | Pruebas automatizadas del código (Python, Vue.js) y validación de la comunicación entre APIs (SIGAA, Alerta Temprana, Moodle). |
+| **Revisión de Arquitectura** | Planificación / Ejecución (AWS) | Director de TI (**Sebastián Bravo**) | Auditoría del diseño de infraestructura Cloud (AWS EKS, S3, RDS) para validar escalabilidad y seguridad antes del despliegue en producción. |
+| **Pruebas de Carga/Estrés** | Control (Post-Despliegue) | Equipo de QA/TI | Simular la carga máxima de $\text{2.500}$ estudiantes más la proyección de crecimiento para asegurar el rendimiento. |
+| **Pruebas de Aceptación del Usuario (UAT)** | Cierre de Módulo | Patrocinadores / Usuarios Finales | Los usuarios clave de Admisión, Académico y TI validan que la solución resuelva los problemas de negocio y cumpla la RTM. |
+
+### 3. Procedimientos para Atender No Conformidades y Mejora Continua
+
+El proceso para el manejo de defectos y la mejora se integrará con el Plan de Gestión de Cambios:
+
+1.  **Identificación:** Una **No Conformidad (NC)** (defecto de software, error de configuración de AWS, o incumplimiento de un requisito) es documentada como un *bug* o *incidencia* en la herramienta de gestión de proyectos.
+2.  **Análisis:** El Gerente de Proyecto y el equipo analizan la causa raíz (si es un error en el proceso, se requiere una acción preventiva; si es un error en el producto, una acción correctiva).
+3.  **Acción Correctiva (Producto):** El *bug* se prioriza en el *Backlog* del *Sprint* para ser corregido inmediatamente o en el siguiente ciclo.
+4.  **Acción Preventiva (Proceso):** Si la NC surge de un fallo en el proceso (ej., falta de revisión de código), se actualiza el **Plan de Gestión de Calidad** y los procedimientos de desarrollo para evitar futuras ocurrencias (**Mejora Continua**).
+5.  **Verificación:** Se realizan pruebas de regresión para asegurar que la corrección no haya introducido nuevos defectos.
+
+### 4. Entregables y Procesos Sujetos a Revisiones de Calidad
+
+Todos los entregables del proyecto serán sujetos a revisión de calidad.
+
+| Entregables Sujetos a Revisión | Proceso Sujeto a Revisión | Estándar Aplicable |
+| :--- | :--- | :--- |
+| Código Fuente de los Módulos (SIGAA, CRM, Alerta Temprana) | Desarrollo y Construcción | Estándares de Codificación (PEP8 para Python, Vue Style Guide). |
+| Documentos de Arquitectura (AWS) | Implementación de Infraestructura | Revisión del diseño de **Seguridad y Costos** de AWS. |
+| Documento de Requisitos (RTM) | Gestión de Requisitos | Auditoría de la Trazabilidad y los Criterios de Aceptación. |
+| Modelos de IA (Alerta Temprana) | Despliegue de Modelos | Precisión, *Recall* y *F1 Score* (Métricas de calidad de modelos). |
+| Instalación de Moodle (Campus Virtual+) | Instalación y Configuración | Lista de verificación de la configuración de seguridad y plugins. |
+
+### 5. Herramientas de Calidad a Utilizar
+
+| Tipo de Herramienta | Herramienta Específica | Uso Principal |
+| :--- | :--- | :--- |
+| **Inspección de Código** | SonarQube | Análisis estático de código para medir la deuda técnica y la adherencia a los estándares. |
+| **Pruebas Automatizadas** | Selenium / Cypress | Pruebas de interfaz de usuario (UI) para Campus Virtual+ y CRM. |
+| **Gestión de Pruebas** | TestRail o Jira | Organización de los casos de prueba, resultados y seguimiento de defectos. |
+| **Diagramación** | Diagrama de Causa y Efecto (Ishikawa) | Utilizado en el análisis de la causa raíz de fallos críticos o desviaciones de rendimiento. |
+| **Verificación Cloud** | AWS Health Dashboard / CloudWatch | Monitoreo en tiempo real del *Uptime* y del desempeño de la infraestructura. |
 
 
 
