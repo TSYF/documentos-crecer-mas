@@ -770,7 +770,83 @@ Todos los entregables del proyecto serán sujetos a revisión de calidad.
 Asigna las responsabilidades y niveles de autoridad en proyectos con nuestra [**plantilla de matriz RACI**](http://www.pmoinformatica.com/2013/07/plantilla-matriz-raci-asignacion.html).
 
 
+## Plan de Gestión de Recursos
 
+Este plan proporciona los lineamientos sobre la categorización, identificación, adquisición, gestión y liberación de los recursos necesarios para el Proyecto de Transformación Digital Integral de Crecer Más, incluyendo recursos materiales (infraestructura) y recursos humanos (equipo técnico y gerencial).
+
+### 1. Métodos para Identificar y Cuantificar los Recursos Requeridos
+
+La identificación se realiza a partir de la **Estructura de Desglose del Trabajo (EDT)** y la **Matriz de Trazabilidad de Requisitos (RTM)**, determinando las habilidades y materiales necesarios para completar cada Paquete de Trabajo.
+
+| Tipo de Recurso | Método de Cuantificación | Estimación Inicial (Basada en Caso) |
+| :--- | :--- | :--- |
+| **Recursos Humanos (RR.HH)** | **Análisis de la EDT (Bottom-Up):** Se estiman las horas-persona requeridas por el equipo de desarrollo (Puntos de Historia en Scrum) para cada módulo. | $\text{10}$ a $\text{12}$ personas (liderazgo, desarrollo, QA, infraestructura). |
+| **Infraestructura Cloud (AWS)** | **Estimación Paramétrica:** Uso de la infraestructura AWS basado en la proyección de $\text{2.500}$ estudiantes actuales y la duplicación de matrícula proyectada. | Servicios EKS, EC2, S3, RDS, y bases de datos (MongoDB, PostgreSQL). |
+| **Licencias de Software** | **Estimación de Proveedor:** Costo anual o mensual basado en la elección del CRM (Salesforce o EspoCRM) y las herramientas de gestión (Jira/Azure DevOps). | $\text{CRM}$ (SaaS o Open Source) y Licencias de Gestión (ej. SonarQube). |
+| **Materiales (Oficina)** | **Estimación Analógica:** Uso de recursos comunes (salas de reunión, equipos de desarrollo) basados en proyectos internos previos de TI. | Oficinas y equipamiento para el equipo interno (**Sebastián Bravo** y equipo central). |
+
+### 2. Guía sobre Cómo Procurar el Equipo de Trabajo y los Recursos Físicos
+
+#### Adquisición de Recursos Humanos:
+
+* **Roles Internos Clave:** La asignación de roles de liderazgo (Gerente de Proyecto TI: **Sebastián Bravo**; Gerente de Proyecto Comunicaciones: **Mariela Salazar**) es interna y fija.
+* **Roles Técnicos:** El equipo de desarrollo (Backend Python, Frontend Vue.js, QA) se procurará mediante la subcontratación de un proveedor especializado en transformación digital (tercerización de paquetes de trabajo, según costos del caso).
+* **Skills Requeridas:** Experiencia avanzada en AWS Cloud, Python/FastAPI, Vue.js, Moodle, y metodologías ágiles (Scrum/Kanban).
+
+#### Adquisición de Recursos Físicos:
+
+* **Infraestructura AWS:** Se procurará mediante un contrato de servicio gestionado con un *partner* de AWS, asegurando la configuración de clústeres EKS, la VPC y los servicios de base de datos.
+* **Licencias de CRM:** Se procurará mediante la contratación directa con Salesforce (si es la opción elegida) o la implementación de una versión *open-source* (EspoCRM) en una instancia EC2.
+
+### 3. Plan de Gestión del Equipo
+
+Se establece un enfoque de **Liderazgo Adaptativo** que combina la autonomía de los equipos Scrum con la dirección centralizada de los Gerentes de Proyecto:
+
+* **Equipos Auto-organizados:** Los equipos de desarrollo de cada módulo (SIGAA, CRM, Campus Virtual+) serán responsables de gestionar sus tareas diarias dentro de los *Sprints* de $\text{2}$ semanas.
+* **Ubicación:** Se fomentará un modelo de trabajo **híbrido**, con presencia física en las oficinas de San Bernardo para las reuniones clave de Planificación y Revisión de *Sprint*, y trabajo remoto para la codificación.
+* **Desarrollo de Habilidades:** Se asignarán horas semanales para el aprendizaje y la revisión de código (*Code Reviews*), enfocándose en la transferencia de conocimiento entre el equipo subcontratado y el equipo interno de TI de Crecer Más (estrategia de sostenibilidad).
+
+### 4. Estrategias de Entrenamiento y Desarrollo del Equipo de Trabajo
+
+El entrenamiento se enfocará en dos áreas críticas para la sostenibilidad del proyecto:
+
+1.  **Entrenamiento en AWS y Arquitectura Cloud:** El equipo interno de TI liderado por **Sebastián Bravo** recibirá entrenamiento intensivo en la gestión y monitoreo de los servicios de AWS (EKS, CloudWatch, Seguridad) para garantizar que puedan mantener y escalar la nueva infraestructura tras el cierre del proyecto.
+2.  **Entrenamiento en Scrum/Agile:** Todo el equipo (incluyendo Patrocinadores y *Product Owners* como **Paula Araya** y **Carolina Rivas**) recibirá capacitación sobre el marco de Scrum para asegurar la correcta priorización del *Backlog* y la participación efectiva en las ceremonias de *Sprint*.
+3.  **Transferencia de Conocimiento:** El equipo subcontratado documentará exhaustivamente los flujos de trabajo, APIs y la base de código para facilitar la transición al equipo interno de Crecer Más.
+
+### 5. Roles y Responsabilidades Asignados al Proyecto: Matriz RACI
+
+Se define la siguiente matriz para clarificar el nivel de participación y responsabilidad de los roles clave en las actividades principales del proyecto:
+
+* **R** (Responsible): Responsable de hacer el trabajo.
+* **A** (Accountable): Tiene autoridad para tomar decisiones finales y rendición de cuentas para su finalización. (solo uno por tarea)
+* **C** (Consulted): Consultado para obtener información.
+* **I** (Informed): Informado del progreso o resultado.
+
+| Actividad / Entregable | Rectora (M. Zamora) | Gerente Proyecto (S. Bravo/M. Salazar) | Patrocinadores / Product Owners | CCB | Equipo de Desarrollo / AWS |
+| :--- | :--- | :--- | :--- | :--- | :--- |
+| **Aprobación de la Línea Base (Costo/Cronograma)** | **A** | **R** | C | C | I |
+| **Definición de Arquitectura Cloud (AWS)** | I | **A** | C | I | **R** |
+| **Priorización del *Backlog* por Módulo** | I | C | **A** | I | **R** |
+| **Desarrollo y Codificación de Módulos** | I | C | C | I | **R** / **A** |
+| **Pruebas de Aceptación del Usuario (UAT)** | I | **R** | **A** | I | C |
+| **Gestión de Solicitudes de Cambio (CCB)** | I | **R** | C | **A** | C |
+| **Revisión de Seguridad (Auditoría)** | C | **A** | I | I | **R** |
+
+### 6. Organigrama del Proyecto
+
+El organigrama sigue una estructura matricial, donde el equipo técnico reporta funcionalmente a los *Product Owners* y administrativamente a los Gerentes de Proyecto, bajo la dirección estratégica de la Rectora.
+
+```mermaid
+graph TD
+    A[Rectora / Patrocinador Principal<br/>María Inés Zamora] --> B(Comité de Control de Cambios CCB);
+    B --> C(Gerente de Proyecto TI<br/>Sebastián Bravo);
+    B --> D(Gerente de Proyecto Comunicaciones<br/>Mariela Salazar);
+    C --> E[Scrum Master / Lead Técnico];
+    D --> E;
+    E --> F[Equipos de Desarrollo por Módulo<br/>(SIGAA, Campus Virtual+, CRM, Alerta Temprana)];
+    F --> G[QA/Testing];
+    F --> H[Especialistas de AWS];
 
 
 
