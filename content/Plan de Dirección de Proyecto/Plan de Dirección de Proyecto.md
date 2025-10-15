@@ -1231,8 +1231,24 @@ La **Línea Base para la Medición del Desempeño** garantiza que la gestión de
 # <a name="_toc15313877"></a>**Componentes adicionales del plan de gestión de proyectos**
 
 ## <a name="_toc15313878"></a>**Plan de gestión de cambios**
-Para consultar las instrucciones para completar la plantilla de plan de dirección de proyectos visita [**este enlace**](http://www.pmoinformatica.com/2019/07/plan-direccion-proyecto-plantilla.html).
 
+Este plan define el proceso formal para someter a consideración, documentar, aprobar o rechazar cualquier modificación a las Líneas Base del Proyecto (Alcance, Cronograma y Costo).
+
+#### 1.1. Comité de Control de Cambios (CCB)
+
+El **CCB** es la autoridad máxima para aprobar cambios formales que impacten significativamente las Líneas Base:
+
+* **Miembros Clave:** Rectora (**María Inés Zamora**), Director Académico (**Patricio Núñez**), Gerentes de Proyecto (**Sebastián Bravo** y **Mariela Salazar**), y un representante de TI/Desarrollo.
+* **Umbral de CCB:** Cualquier cambio que exceda $\text{5}$ días en el cronograma de un *Milestone* o que requiera el uso de la **Reserva de Contingencia** (más de $\text{\$4.000.000}$ CLP) debe ser aprobado por el CCB.
+
+#### 1.2. Proceso de Solicitud de Cambio (CR)
+
+1.  **Registro:** El iniciador registra la Solicitud de Cambio (CR) en el sistema de gestión de proyectos (Jira/Azure DevOps).
+2.  **Análisis de Impacto:** Los Gerentes de Proyecto analizan el impacto de la CR en las tres Líneas Base (Alcance, Costo, Cronograma).
+3.  **Decisión:**
+    * Cambios menores (ajustes de *Sprints*): Aprobación por los Gerentes de Proyecto.
+    * Cambios mayores (sobre Umbral): Aprobación por el **CCB** (Votación: Mayoría simple).
+4.  **Implementación:** Si se aprueba, se actualizan formalmente la Línea Base afectada, el Registro de Riesgos y los planes operativos.
 
 
 
@@ -1240,42 +1256,46 @@ Para consultar las instrucciones para completar la plantilla de plan de direcci�
 
 ## <a name="_toc15313879"></a>**Plan de gestión de configuración**
 
+Este plan establece la identificación y el control de las características funcionales y físicas de los productos del proyecto, enfocándose en el *software* y la infraestructura **AWS**.
 
-
-
-
-
+| Elemento de Configuración | Propósito | Herramienta de Control | Responsable |
+| :--- | :--- | :--- | :--- |
+| **Código Fuente** | Control de versiones del código de Python/Vue.js. | Repositorio **GitLab/GitHub** | *Scrum Master* / Equipo de Desarrollo |
+| **Infraestructura (AWS)** | Definición del estado de la infraestructura *cloud* (EC2, EKS, RDS). | **Infraestructura como Código (IaC)** (Terraform/CloudFormation) | Especialistas de AWS / **S. Bravo** |
+| **Requisitos y Diseño** | Versión aprobada de las historias de usuario y requisitos técnicos. | Sistema de Gestión de Requisitos (Jira) | Gerentes de Proyecto |
+| **Entregables Finales** | Documentación de diseño, manuales de usuario y Líneas Base. | Repositorio Documental (SharePoint/Confluence) | **M. Salazar** |
 
 
 
 
 
 ## <a name="_toc15313880"></a>**Descripción del ciclo de vida del proyecto**
-Para consultar las instrucciones para completar la plantilla de plan de dirección de proyectos visita [**este enlace**](http://www.pmoinformatica.com/2019/07/plan-direccion-proyecto-plantilla.html).
 
+El proyecto utilizará un ciclo de vida **Híbrido**, combinando elementos predictivos y adaptativos para optimizar la gestión de riesgo y la entrega de valor:
 
-
-
-
+* **Fases Predictivas (Enfoque *Waterfall*):** Utilizadas para la **Infraestructura AWS**, la **Adquisición del Proveedor** y el **Control Financiero**. Estas fases tienen requisitos fijos (por la naturaleza contractual).
+* **Fases Adaptativas (Enfoque Ágil/Scrum):** Utilizadas para el **Desarrollo de los cuatro Módulos (SIGAA, IA, CRM, Campus Virtual)**. El trabajo se realiza en *Sprints* de dos semanas, lo que permite la retroalimentación continua de los *Product Owners* y la adaptación del alcance al detalle.
 
 
 
 ## <a name="_toc15313881"></a>**Enfoque de desarrollo del plan de proyecto**
 
+El Plan de Dirección de Proyecto se desarrolló utilizando un enfoque de **Planificación por Ondas Sucesivas (*Rolling Wave Planning*)**:
 
-
-
-
-
-
-
-
+* **Detalle Inicial:** Los requisitos de alto nivel, el presupuesto general ($\text{\$630.000.000}$ CLP) y los *Milestones* de **12 meses** se definieron con precisión al inicio.
+* **Detalle Progresivo:** Los paquetes de trabajo de corto plazo (Primeros 3 meses: *Setup* AWS y Diseño de APIs) se detallaron a nivel de actividad. El trabajo de largo plazo (ej. despliegue del Motor de IA, Mes 8-10) se dejó como **Historias de Usuario y Temas de Épica**, para ser refinado por el equipo Scrum en la planificación de cada *Sprint*.
 
 
 
 ## <a name="_toc15313882"></a>**Evaluaciones de la gerencia**
 
+La gerencia será evaluada por su rol en la toma de decisiones y el cumplimiento de los **KPIs** estratégicos del proyecto:
 
+| Gerente / Rol | Enfoque de Evaluación | Frecuencia |
+| :--- | :--- | :--- |
+| **Rectora (M. I. Zamora)** | **Aprobación de Valor de Negocio:** Evaluación del **Impacto** del proyecto en la duplicación de matrícula y la reducción de la deserción. | Trimestral |
+| **Gerente de Proyecto TI (S. Bravo)** | **Desempeño de Integración y Costos (Liderazgo Técnico):** Evaluación de **CPI** y cumplimiento de los requisitos de calidad técnica ($\text{API}$ y $\text{AWS}$). | Mensual |
+| **Gerente de Proyecto Com. (M. Salazar)** | **Desempeño de Comunicación y Alcance (Liderazgo Funcional):** Evaluación de **SPI**, satisfacción del usuario (*feedback* UAT) y la gestión de la resistencia al cambio. | Mensual |
 
 
 
