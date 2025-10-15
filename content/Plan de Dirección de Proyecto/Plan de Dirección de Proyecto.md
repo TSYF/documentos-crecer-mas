@@ -837,16 +837,10 @@ Se define la siguiente matriz para clarificar el nivel de participación y respo
 
 El organigrama sigue una estructura matricial, donde el equipo técnico reporta funcionalmente a los *Product Owners* y administrativamente a los Gerentes de Proyecto, bajo la dirección estratégica de la Rectora.
 
-mermaid
-graph TD
-    A[Rectora / Patrocinador Principal<br/>María Inés Zamora] --> B(Comité de Control de Cambios CCB);
-    B --> C(Gerente de Proyecto TI<br/>Sebastián Bravo);
-    B --> D(Gerente de Proyecto Comunicaciones<br/>Mariela Salazar);
-    C --> E[Scrum Master / Lead Técnico];
-    D --> E;
-    E --> F[Equipos de Desarrollo por Módulo<br/>(SIGAA, Campus Virtual+, CRM, Alerta Temprana)];
-    F --> G[QA/Testing];
-    F --> H[Especialistas de AWS];
+
+
+   ![Texto alternativo](orga.png)
+
 
 ### 7. Plan de Reconocimientos y Recompensa
 
