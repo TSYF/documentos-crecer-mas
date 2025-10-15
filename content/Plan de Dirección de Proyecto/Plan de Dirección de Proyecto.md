@@ -32,36 +32,43 @@
 * Evaluaciones de la gerencia	[15](#_toc15313882)
 
 ---
-### Información del proyecto
+## Información del Proyecto
 
-**Datos**
+### Datos del Proyecto
 
-| Empresa / Organizacion | Crecer Más                        |
-| :--------------------- | :-------------------------------- |
-| Proyecto               | Transformación Digital Crecer Más |
-| Fecha de preparación   | 26-08-2025                        |
-| Cliente                | Crecer Más                        |
-| Patrocinador principal |                                   |
-| Gerente de Proyecto    |                                   |
+| Dato | Descripción | Valor / Detalle |
+| :--- | :--- | :--- |
+| **Empresa / Organización** | Instituto Técnico Profesional | Crecer Más |
+| **Proyecto** | Transformación Digital Crecer Más | Implementación de 4 Módulos Clave |
+| **Fecha de Preparación** | 14-10-2025 | (Fecha actual de aprobación del Plan) |
+| **Cliente** | Instituto Crecer Más | La institución completa es la beneficiaria. |
+| **Director Patrocinador** | Rectora | María Inés Zamora |
+| **Gerente de Proyecto** | Co-Liderazgo** | Sebastián Bravo (TI) y Mariela Salazar (Com.) |
 
-**Patrocinador / Patrocinadores**
+### Liderazgo del Proyecto
 
-| **Nombre** | **Cargo** | **Departamento / División** | **Rama ejecutiva (Vicepresidencia)** |
-| :--------: | :-------: | :-------------------------: | :----------------------------------: |
-|            |           |                             |                                      |
-|            |           |                             |                                      |
-
----
-### Aprobaciones
-
-|        **Nombre / Cargo**        | **Fecha** | **Firma** |
-| :------------------------------: | :-------: | :-------: |
-| <p><h2></h2></p><p><h2></h2></p> | <h2></h2> | <h2></h2> |
-| <p><h2></h2></p><p><h2></h2></p> | <h2></h2> | <h2></h2> |
-| <p><h2></h2></p><p><h2></h2></p> | <h2></h2> | <h2></h2> |
-| <p><h2></h2></p><p><h2></h2></p> | <h2></h2> | <h2></h2> |
+| Nombre | Cargo | Departamento / División | Rol Ejecutivo |
+| :--- | :--- | :--- | :--- |
+| **María Inés Zamora** | Rectora | Alta Dirección | **Director Patrocinador / Sponsor Principal** |
+| **Sebastián Bravo** | Director de TI | Tecnología de la Información | **Gerente de Proyecto TI (Liderazgo Técnico)** |
+| **Mariela Salazar** | Directora de Comunicaciones | Comunicaciones | **Gerente de Proyecto Comunicaciones (Liderazgo Funcional)** |
+| **Patricio Núñez** | Director Académico | Dirección Académica | **Patrocinador Clave (Requisitos Moodle/IA)** |
+| **Paula Araya** | Subdirectora de Admisión | Admisión | **Patrocinador (Requisitos CRM)** |
+| **Carolina Rivas** | Subdirectora Diseño Instruccional | Diseño Instruccional | **Patrocinador (Requisitos Campus Virtual+)** |
 
 ---
+
+## Aprobaciones
+
+Este Plan de Dirección de Proyecto ha sido revisado y aprobado por los líderes clave de la organización, comprometiendo los recursos y el tiempo descritos en las Líneas Base. Cualquier cambio futuro deberá someterse al **Comité de Control de Cambios (CCB)**.
+
+| Rol | Nombre | Firma | Fecha de Aprobación |
+| :--- | :--- | :--- | :--- |
+| **Rectora / Patrocinador Principal** | María Inés Zamora | [Espacio para Firma] ||
+| **Gerente de Proyecto TI** | Sebastián Bravo | [Espacio para Firma] |  |
+| **Gerente de Proyecto Comunicaciones** | Mariela Salazar | [Espacio para Firma] |  |
+| **Director Académico (Sponsor Clave)** | Patricio Núñez | [Espacio para Firma] |  |
+
 ### Introducción
 
 ## Descripción de Alto Nivel del Proyecto
