@@ -861,13 +861,57 @@ El control de los recursos físicos y tecnológicos se centrará en el monitoreo
 
 
 ## <a name="_toc15313868"></a>**Plan de gestión de comunicaciones**
-Descarga nuestra [**plantilla del Plan de gestión de comunicaciones**](http://www.pmoinformatica.com/2014/03/plantilla-de-plan-de-gestion-de.html) del proyecto.
-
-Otro aspecto importante a considerar en el plan de proyecto es el reporte de avance.
-
-Descarga nuestra [**plantilla de reporte de avance**](http://www.pmoinformatica.com/2014/02/plantilla-reporte-de-avance-de-proyecto.html).
 
 
+## Plan de Gestión de Comunicaciones
+
+El Plan de Gestión de Comunicaciones establece cómo, cuándo, quién y con qué frecuencia se gestionará, almacenará y distribuirá la información del Proyecto de Transformación Digital del Instituto Crecer Más a todos los interesados (Patrocinadores, Equipo, Usuarios, CCB).
+
+### 1. Requisitos y Estructura de la Comunicación
+
+La comunicación se estructurará para satisfacer las necesidades de la metodología **Híbrida**: ágil para los módulos de desarrollo y predictiva para la gestión financiera y la infraestructura.
+
+| Grupo de Interesados | Nivel de Detalle Requerido | Formato Preferido | Frecuencia |
+| :--- | :--- | :--- | :--- |
+| **Patrocinadores Ejecutivos (Rectora, M. Zamora)** | Alto Nivel. Enfoque en Impacto de Negocio (Matrícula, Deserción), Costo (CPI) y Cronograma (SPI). | Informe Ejecutivo, Presentación (PowerPoint). | Mensual |
+| **Comité de Control de Cambios (CCB)** | Formal. Solicitudes de cambio (CR), Aprobación de Líneas Base, Desviaciones mayores a umbrales. | Documento Formal, Reunión de Aprobación. | Según sea necesario |
+| **Gerentes de Proyecto (S. Bravo, M. Salazar)** | Funcional y Táctico. Riesgos, Consumo de recursos, Integración de módulos. | Reunión de Coordinación, Correo Electrónico. | Semanal |
+| **Equipo de Desarrollo/Scrum** | Operativo y Técnico. Avance de *Sprints*, impedimentos, revisiones de código. | Reunión Diaria (Daily Stand-up), Tablero (Jira/Azure DevOps). | Diario |
+| **Usuarios Clave / *Product Owners*** | Funcional. Revisión de funcionalidades desarrolladas (Demos), Aceptación de Pruebas (UAT). | Reunión de Revisión de *Sprint*, Sesiones de Demo. | Cada 2 semanas |
+
+### 2. Canales y Flujo de Comunicación
+
+| Tipo de Comunicación | Propósito Principal | Responsable de Enviar | Canal / Herramienta |
+| :--- | :--- | :--- | :--- |
+| **Reunión Diaria (Daily Stand-up)** | Reporte de progreso y obstáculos del *Sprint*. | Equipo Scrum / *Scrum Master* | Videoconferencia (Meet/Zoom) - $\text{15}$ minutos. |
+| **Informe de Desempeño Mensual** | Reporte formal de $\text{SPI/CPI}$, estado de *Milestones* y resumen ejecutivo. | Gerentes de Proyecto. | Correo Electrónico (Documento PDF adjunto). |
+| **Gestión de Impedimentos** | Escalada de riesgos, bloqueos o problemas técnicos. | *Scrum Master* / Gerente de Proyecto TI (**Sebastián Bravo**). | Chat interno (Slack/Teams) o Jira. |
+| **Revisión de *Sprint*** | Presentación de las funcionalidades terminadas a los *Product Owners*. | Equipo de Desarrollo / *Scrum Master*. | Reunión Presencial/Híbrida con Demo. |
+| **Archivo de Documentos** | Almacenamiento y acceso a las Líneas Base, Requisitos y Documentos Legales. | Gerentes de Proyecto. | Repositorio Central (SharePoint/Confluence). |
+
+### 3. Frecuencia y Responsabilidad (Quién informa a Quién)
+
+| Origen del Mensaje | Destino del Mensaje | Contenido Clave | Frecuencia |
+| :--- | :--- | :--- | :--- |
+| **Gerentes de Proyecto** | **Patrocinadores Ejecutivos** | Desempeño de $\text{SPI}$ y $\text{CPI}$, estado de las reservas de contingencia. | Mensual |
+| ***Scrum Master*** | **Gerentes de Proyecto** | Resumen de la Velocidad del Equipo, Cierre de *Sprint*, Riesgos operativos. | Bisemanal (cierre de Sprint) |
+| **Equipo de Desarrollo** | ***Product Owners*** | Demos de las historias de usuario terminadas para su aceptación. | Bisemanal (Revisión de Sprint) |
+| **Gerente de Proyecto TI (S. Bravo)** | **Gerente de Proyecto Com. (M. Salazar)** | Estado de Integración de APIs, Avance de Infraestructura AWS. | Semanal (Coordinación) |
+| **CCB** | **Gerentes de Proyecto / Patrocinadores** | Decisión sobre Solicitudes de Cambio (CR). | Según CR sometida |
+
+### 4. Protocolo de Escalada de Riesgos y Problemas
+
+Se define una ruta clara para la gestión de problemas fuera de la capacidad de resolución del equipo de desarrollo (impedimentos):
+
+1.  **Nivel 1 (Equipo):** El equipo comunica el impedimento al *Scrum Master* o Gerente de Proyecto.
+2.  **Nivel 2 (Gerencia):** Si el problema afecta el *Goal* del *Sprint* o el presupuesto, el Gerente de Proyecto lo comunica a la contraparte (S. Bravo a M. Salazar, o viceversa) para buscar una solución conjunta.
+3.  **Nivel 3 (Ejecutivo):** Si el problema compromete la fecha de una *Milestone* clave (varianza de $\geq 2$ semanas) o requiere más de $\text{25\%}$ de la reserva de contingencia, se escala formalmente a la **Rectora (María Inés Zamora)** y al **Comité de Control de Cambios (CCB)**.
+
+### 5. Gestión del Almacenamiento de la Información
+
+* **Repositorio Central:** Todos los documentos formales del proyecto (Plan de Dirección, Informes, Líneas Base, Documentos Legales) se almacenarán en un repositorio central de la institución (SharePoint o Confluence).
+* **Gestión de Código:** El código fuente, la documentación técnica y la configuración de AWS se mantendrán en un sistema de control de versiones (**GitLab/GitHub**), accesible a todos los miembros del equipo y al equipo de TI de Crecer Más para facilitar la transferencia de conocimiento.
+* **Retención:** La información se retendrá por un mínimo de $\text{5}$ años después del cierre formal del proyecto.
 
 
 
@@ -875,20 +919,148 @@ Descarga nuestra [**plantilla de reporte de avance**](http://www.pmoinformatica
 
 ## <a name="_toc15313869"></a>**Plan de gestión de riesgos de un proyecto**
 
-Descarga nuestras plantillas:
+## Plan de Gestión de Riesgos
 
-- [**Plan de gestión de riesgos**](http://www.pmoinformatica.com/2013/09/plantilla-plan-gestion-riesgos.html) de un proyecto.
+El Plan de Gestión de Riesgos establece la metodología para identificar, analizar, planificar la respuesta, y monitorear los riesgos durante el ciclo de vida del Proyecto de Transformación Digital, con el objetivo de maximizar la probabilidad de éxito y minimizar el impacto de eventos negativos.
 
-- [**Formato de registro y seguimiento de los riesgos**](http://oficinaproyectosinformatica.blogspot.com/2012/10/plantilla-para-la-gestion-de-riesgos-en.html) en el plan de proyecto.
+### 1. Metodología de Gestión de Riesgos
 
+* **Enfoque:** Se utilizará un enfoque cualitativo y cuantitativo para priorizar los riesgos.
+* **Frecuencia de Revisión:** La Matriz de Riesgos se revisará formalmente en las reuniones de coordinación semanal de los Gerentes de Proyecto y de manera inmediata si se activa un **Umbral de Control** (ej., SPI/CPI por debajo de $\text{0.90}$).
+* **Responsable:** La gestión de riesgos recae en el Gerente de Proyecto TI (**Sebastián Bravo**) y el Gerente de Proyecto Comunicaciones (**Mariela Salazar**) de forma compartida, con la supervisión estratégica de la Rectora.
+* **Escala de Impacto/Probabilidad:** Se utilizará una escala simple de 3x3:
+    * **Probabilidad:** Baja (10%), Media (40%), Alta (70%).
+    * **Impacto (en LBC):** Bajo ($\leq 5\%$ del presupuesto), Medio ($\text{5-10\%}$ del presupuesto), Alto ($\geq 10\%$ del presupuesto).
+
+### 2. Matriz de Identificación y Análisis de Riesgos
+
+A continuación, se presentan los riesgos clave identificados para la arquitectura tecnológica y la gestión del proyecto:
+
+| ID | Categoría | Riesgo Identificado | Prob. | Impacto | Puntuación (PxI) | Reserva (Asociada) |
+| :--- | :--- | :--- | :--- | :--- | :--- | :--- |
+| **R-1** | Integración | Fallo en la integración de APIs seguras entre SIGAA (*legacy*) y los módulos nuevos (Alerta Temprana). | Alta | Medio | Medio-Alto | Contingencia Costo |
+| **R-2** | Tecnología | El **Motor de IA** del Sistema de Alerta Temprana no logra el $\text{30\%}$ de reducción de deserción esperada. | Media | Alto | Medio | Reserva de Gestión |
+| **R-3** | Infraestructura | Sobrecosto en el consumo de AWS (EC2/EKS) debido a la subestimación de la carga de $\text{2.500}$ estudiantes. | Media | Medio | Medio | Contingencia Costo |
+| **R-4** | Recurso Humano | Pérdida de conocimiento clave por la rotación del equipo de desarrollo subcontratado. | Media | Alto | Medio | Costo/Cronograma |
+| **R-5** | Alcance | Los Patrocinadores (**P. Núñez, C. Rivas, P. Araya**) solicitan cambios mayores al alcance (*Scope Creep*) sin la aprobación del CCB. | Media | Medio | Medio | Cronograma |
+
+### 3. Plan de Respuesta a Riesgos (Estrategias)
+
+Se definen estrategias específicas para los riesgos de alta prioridad:
+
+| ID | Riesgo | Estrategia de Respuesta | Acciones Específicas de Respuesta |
+| :--- | :--- | :--- | :--- |
+| **R-1** | Fallo en Integración SIGAA | **Mitigar / Transferir** | **Mitigación:** Realizar pruebas de carga e integración de APIs en un entorno *sandbox* de AWS en el mes 3. **Transferencia:** Incluir cláusula contractual con el proveedor de desarrollo que garantice la integración funcional. |
+| **R-2** | Motor de IA ineficiente | **Mitigar / Aceptar** | **Mitigación:** Utilizar una metodología de *Machine Learning Ops* (MLOps) con re-entrenamiento y ajuste del modelo cada 3 meses. **Aceptación:** Si no se logra el 30%, se acepta el rendimiento más alto que sea estable y se gestiona la expectativa con la Gerencia. |
+| **R-3** | Sobrecosto AWS | **Mitigar** | Implementar un sistema de alertas en **AWS CloudWatch** para notificar a **Sebastián Bravo** si el gasto de EC2/EKS supera el $\text{80\%}$ del presupuesto mensual proyectado. Optimizar la configuración de EKS. |
+| **R-4** | Rotación del equipo subcontratado | **Mitigar** | Implementar la **Estrategia de Desarrollo de Habilidades** y **Transferencia de Conocimiento** (ver Plan de Recursos) de forma intensiva, forzando la documentación y la revisión de código por el equipo interno. |
+| **R-5** | Solicitud de Cambios sin CCB | **Evitar** | Reforzar el **Plan de Gestión de Comunicaciones** y realizar una reunión formal con los Patrocinadores para establecer las reglas de operación del **Comité de Control de Cambios (CCB)** antes de la ejecución. |
+
+### 4. Umbrales y Control de Riesgos
+
+La gestión de riesgos se vincula directamente a las líneas base del proyecto:
+
+* **Umbral de Riesgo:** La activación de una acción de respuesta formal se produce cuando el **Índice de Desempeño del Costo (CPI)** cae por debajo de $\text{0.90}$ o la **Varianza del Cronograma (SV)** cae por debajo de $\text{-5.000.000}$ CLP, lo cual indica que un riesgo ha impactado el proyecto.
+* **Reserva de Contingencia:** Los Gerentes de Proyecto pueden liberar la **Reserva de Contingencia ($\text{\$24.000.000}$ CLP)** para mitigar riesgos identificados, sin requerir la aprobación del CCB, siempre que no se exceda el $\text{50\%}$ de dicha reserva.
+* **Riesgos Residuales:** Los riesgos que permanezcan después de la implementación de las respuestas planificadas se documentarán y monitorearán.
+
+### 5. Formatos y Frecuencia de Reportes de Riesgos
+
+| Reporte | Contenido Clave | Frecuencia | Distribución |
+| :--- | :--- | :--- | :--- |
+| **Registro de Riesgos** | Lista completa, calificación (PxI) y estado de las acciones de respuesta. | Semanal | Gerentes de Proyecto, *Scrum Master*. |
+| **Informe de Desempeño Mensual** | Resumen de los riesgos de alta prioridad, utilización de la Reserva de Contingencia. | Mensual | Patrocinadores Ejecutivos (Rectora), Director de TI. |
+| **Revisión de Lecciones Aprendidas** | Éxitos y fracasos de las acciones de respuesta a riesgos. | Cierre de Módulo / Cierre de Proyecto. | Equipo de Proyecto, Director de TI. |
 
 
 
 
 
 ## <a name="_toc15313870"></a>**Plan de gestión de adquisiciones**
-Para consultar las instrucciones para completar la plantilla de plan de dirección de proyectos visita [**este enlace**](http://www.pmoinformatica.com/2019/07/plan-direccion-proyecto-plantilla.html).
 
+## Plan de Gestión de Adquisiciones
+
+Este plan establece los procedimientos y directrices para adquirir bienes y servicios externos al Instituto Técnico Profesional Crecer Más, principalmente el equipo de desarrollo subcontratado y las licencias de software (CRM, infraestructura AWS).
+
+### 1. Coordinación de Adquisiciones con el Plan de Proyecto
+
+La gestión de adquisiciones se coordinará estrechamente con las siguientes áreas del Plan de Dirección de Proyecto:
+
+* **Gestión de Costos:** El costo de la adquisición del *vendor* de desarrollo (parte de los $\text{\$480.000.000}$ CLP) y las licencias (ej. Salesforce) se cotejarán con la **Línea Base del Costo** para asegurar que no haya sobrecostos.
+* **Gestión de Calidad:** Los contratos con el proveedor externo incluirán los **Estándares de Calidad** (ej. tasa de $\text{95\%}$ de aprobación en UAT) y las penalizaciones por incumplimiento de los requisitos de rendimiento o seguridad (AWS).
+* **Gestión de Riesgos:** La selección del proveedor se priorizará en función de su experiencia previa en **migración de sistemas *legacy*** (riesgo clave R-1) y **desarrollo de IA** (riesgo clave R-2).
+* **Gestión del Cronograma:** Los plazos de contratación deben coincidir con la fecha de inicio de la fase de **Ejecución de Módulos** para evitar retrasos en el *Kick-off* de los *Sprints* de desarrollo.
+
+### 2. Plazos para Actividades Clave de Procuras
+
+| Actividad de Procura | Responsable | Plazo Estimado | Hito de Dependencia |
+| :--- | :--- | :--- | :--- |
+| **Definición de Requisitos Técnicos (RFP)** | Gerente de Proyecto TI (**S. Bravo**) | Semana 1 - 2 | Aprobación del Plan de Gestión de Requisitos. |
+| **Lanzamiento de Licitación / RFP** | Gerencia Administrativa | Semana 3 | Envío a 3 proveedores precalificados. |
+| **Evaluación de Propuestas y Selección** | Gerentes de Proyecto + Directora TI | Semana 4 - 5 | Recepción de Estimaciones Independientes. |
+| **Negociación y Firma de Contrato** | Rectora (**M. Zamora**) / Asesoría Legal | Semana 6 | **Adquisición Formalizada.** |
+| **Adquisición de Licencias Cloud (AWS)** | Gerente de Proyecto TI (**S. Bravo**) | Semana 7 | Requerido antes del inicio de la fase de *Setup*. |
+| **Adquisición de Licencias CRM (Salesforce)** | Gerente de Proyecto Com. (**M. Salazar**) | Semana 10 | Finalización de la prueba de concepto (si aplica). |
+
+### 3. Métricas a Usar en la Administración de Contratos
+
+La administración del contrato con el proveedor de desarrollo se medirá y gestionará en base a las siguientes métricas:
+
+* **Índice de Desempeño del Cronograma (SPI):** Medido semanalmente. Si $\text{SPI} < 0.95$ por dos semanas consecutivas, se requiere un plan de recuperación contractual.
+* **Defectos en UAT:** Tasa de defectos encontrados en las **Pruebas de Aceptación del Usuario (UAT)**. Si la tasa supera el $\text{10\%}$ de las funcionalidades probadas, se requiere revisión de calidad por parte del proveedor.
+* **Transferencia de Conocimiento:** Cumplimiento de la documentación técnica y sesiones de capacitación para el equipo interno de Crecer Más (métrica binaria: Cumplido/No Cumplido).
+* **Consumo de Horas/Puntos de Historia:** Medición de la velocidad del equipo (*Velocity*) para validar la eficiencia en el uso de los recursos facturados.
+
+### 4. Roles y Responsabilidades de los Interesados en Adquisiciones
+
+| Interesado | Rol en Adquisiciones |
+| :--- | :--- |
+| **Rectora (María Inés Zamora)** | **Aprobador Final (Accountable)** del contrato y presupuesto de adquisiciones mayor a $\text{\$20.000.000}$ CLP. |
+| **Gerente de Proyecto TI (S. Bravo)** | **Responsable (Responsible)** de definir los requisitos técnicos (API, AWS, Python) y evaluar la capacidad técnica de los proveedores. |
+| **Gerente de Proyecto Com. (M. Salazar)** | **Responsable (Responsible)** de definir los requisitos funcionales del CRM y Campus Virtual+ y participar en la evaluación comercial. |
+| **Gerencia Administrativa** | **Responsable (Responsible)** de la preparación formal de la RFP, el proceso de licitación y la gestión de la documentación legal. |
+| **Comité de Control de Cambios (CCB)** | **Consultado (Consulted)** para la aprobación de cualquier cambio en el alcance que afecte un contrato existente. |
+
+### 5. Premisas y Restricciones que Pueden Afectar las Procuras
+
+#### Premisas:
+
+* **Proveedor Único de Desarrollo:** Se asume que un solo proveedor manejará el desarrollo de los cuatro módulos para asegurar la coherencia arquitectónica y la integración.
+* **Contrato Fijo (Time & Materials):** El desarrollo se contratará bajo un modelo de **Tiempo y Materiales (T&M)** con un límite superior garantizado (*Capped T&M*), dado que el alcance ágil puede evolucionar.
+
+#### Restricciones:
+
+* **Moneda Legal:** Todos los pagos y contratos formales deben realizarse en **Pesos Chilenos (CLP)**, con excepción de las licencias SaaS internacionales (ej. Salesforce o AWS), que se cotizarán en USD, pero se pagarán al tipo de cambio del día.
+* **Tiempo de Contratación:** El proceso de licitación no puede exceder las $\text{6}$ semanas, debido a las restricciones del cronograma general.
+
+### 6. Jurisdicción Legal y Moneda de Pago
+
+| Adquisición | Jurisdicción Legal | Moneda de Pago Primaria |
+| :--- | :--- | :--- |
+| **Contrato de Desarrollo / Consultoría** | Chile | Pesos Chilenos (CLP) |
+| **Servicios Cloud (AWS)** | Estados Unidos (Términos de Servicio de AWS) | Dólar Estadounidense (USD) |
+| **Licencias SaaS (ej. Salesforce)** | País de Origen de la Licencia | Dólar Estadounidense (USD) |
+
+### 7. Uso de Estimaciones Independientes
+
+* **Estimaciones Independientes (EI):** **Sí**, se utilizarán EI. El Gerente de Proyecto TI (**Sebastián Bravo**) y un consultor externo independiente elaborarán una estimación de costos por módulo (esfuerzo en horas/persona) antes de la evaluación de las propuestas de los proveedores.
+* **Criterio de Evaluación:** La desviación entre la propuesta del proveedor y la Estimación Independiente servirá como un **Criterio de Evaluación** clave. Las propuestas que se desvíen más del $\pm \text{15\%}$ deberán ser justificadas con alto detalle.
+
+### 8. Riesgos de Adquisición
+
+| ID | Riesgo de Adquisición | Impacto | Respuesta Planificada |
+| :--- | :--- | :--- | :--- |
+| **A-R1** | El proveedor seleccionado no tiene experiencia probada en integración de sistemas *legacy* con AWS. | Alto (Fallo en R-1) | **Mitigar:** Solicitar referencias y realizar un *Deep Dive* técnico en la fase de evaluación, específicamente sobre proyectos de migración. |
+| **A-R2** | La negociación del contrato T&M excede el presupuesto debido a la falta de claridad en los criterios de salida. | Medio | **Evitar:** Establecer un **límite superior de costo (*Capped T&M*)** para el contrato de desarrollo antes de la firma. |
+| **A-R3** | El proveedor CRM seleccionado (ej. EspoCRM) no escala correctamente al duplicarse la matrícula. | Medio | **Mitigar:** Incluir métricas de rendimiento y escalabilidad como criterios de aceptación en el contrato de licencia/implementación. |
+
+### 9. Proveedores Precalificados
+
+El Instituto Crecer Más mantendrá una lista corta de $\text{3}$ a $\text{5}$ proveedores de servicios de desarrollo y consultoría de TI precalificados, que demuestren experiencia en los siguientes dominios tecnológicos requeridos por el proyecto:
+
+1.  **Desarrollo Full Stack (Python/Vue.js)**.
+2.  **Infraestructura y Migración a AWS Cloud (EKS)**.
+3.  **Implementación de Soluciones CRM Educativo**.
 
 
 
@@ -899,9 +1071,56 @@ Para consultar las instrucciones para completar la plantilla de plan de direcci�
 
 ## <a name="_toc15313871"></a>**Plan de gestión de los interesados**
 
-Descarga nuestra [**plantilla del Plan de gestión de interesados**](http://www.pmoinformatica.com/2017/03/plantilla-plan-gestion-interesados.html).
+## Plan de Gestión de los Interesados
 
+Este plan define las estrategias para identificar, analizar y gestionar de manera efectiva las expectativas y la participación de todos los individuos y organizaciones afectadas por el Proyecto de Transformación Digital del Instituto Crecer Más.
 
+### 1. Registro y Clasificación de Interesados
+
+Se identifican los interesados clave y se clasifican según su **Poder** (capacidad de influir en el proyecto) e **Interés** (nivel de preocupación por los resultados) para definir la estrategia de gestión.
+
+| Interesado | Rol / Departamento | Poder | Interés | Estrategia de Gestión |
+| :--- | :--- | :--- | :--- | :--- |
+| **María Inés Zamora** | Rectora / Patrocinador Principal | Alto | Alto | **Gestionar de Cerca** |
+| **Patricio Núñez** | Director Académico | Alto | Medio | **Satisfacer** |
+| **Paula Araya** | Sponsor / Subdirectora de Admisión | Medio | Alto | **Mantener Informado** |
+| **Carolina Rivas** | Sponsor / Subdirectora Diseño Instruccional | Medio | Alto | **Mantener Informado** |
+| **Sebastián Bravo** | Gerente de Proyecto TI | Medio | Alto | **Gestionar de Cerca** |
+| **Mariela Salazar** | Gerente de Proyecto Comunicaciones | Medio | Alto | **Gestionar de Cerca** |
+| **Usuarios Finales (Estudiantes)** | Consumidores del Campus Virtual y Alerta Temprana | Bajo | Alto | **Monitorear** |
+| **Equipo de Desarrollo Subcontratado** | Proveedor de Soluciones | Bajo | Alto | **Gestionar de Cerca** |
+| **Usuarios Legacy (SIGAA)** | Equipo administrativo / TI actual | Medio | Medio | **Mantener Satisfecho** |
+
+### 2. Estrategias de Gestión por Interesado Clave
+
+Las estrategias se centran en maximizar el apoyo y minimizar la resistencia, especialmente de la alta dirección y los equipos impactados:
+
+| Interesado | Necesidad Principal | Estrategia de Participación | Acciones Específicas |
+| :--- | :--- | :--- | :--- |
+| **Rectora (M. I. Zamora)** | Retorno de la Inversión (ROI) y objetivos de negocio (Matrícula + Deserción). | **Involucramiento Estratégico (Gestionar de Cerca)** | Reuniones Ejecutivas Mensuales (Focus en $\text{KPI}$s de Negocio: $\text{SPI/CPI}$, crecimiento, deserción). |
+| **Director Académico (P. Núñez)** | Calidad de la formación y datos fiables en Alerta Temprana. | **Comunicación Adaptada (Satisfacer)** | Presentación trimestral sobre la calidad y precisión del **Motor de IA**. Asegurar su participación en las $\text{UAT}$ de Moodle. |
+| **Usuarios Legacy (SIGAA)** | Continuidad operativa y entrenamiento en los nuevos flujos de trabajo. | **Gestión del Cambio (Mantener Satisfecho)** | Involucrarlos tempranamente como consultores para la integración $\text{API}$ y ofrecer sesiones de entrenamiento específicas antes del *Go-Live*. |
+| **Patrocinadores de Módulos (Araya/Rivas)** | Cumplimiento de los requisitos funcionales de sus áreas (CRM/Alerta). | **Participación Activa (Mantener Informado)** | Participación obligatoria en las **Revisiones de *Sprint*** cada $\text{2}$ semanas para dar *feedback* inmediato y validar el alcance. |
+
+### 3. Plan para Abordar la Resistencia al Cambio
+
+Se implementará un plan proactivo para manejar la resistencia que pueda surgir, principalmente del personal administrativo y académico que utiliza los sistemas *legacy* (SIGAA y Moodle anterior).
+
+| Fuente de Resistencia | Causa Potencial | Estrategia de Mitigación | Responsable |
+| :--- | :--- | :--- | :--- |
+| **Personal Administrativo** | Miedo a la pérdida de control o complejidad del nuevo **SIGAA/CRM**. | **Capacitación y Empoderamiento** | Diseñar un programa de *training* enfocado en los beneficios de la automatización y la simplificación de tareas (liderado por **M. Salazar**). |
+| **Equipo de TI Interno** | Desconocimiento de la infraestructura **AWS (EKS)** y temor a la falta de autonomía. | **Transferencia de Conocimiento** | Asignar al equipo interno roles de **Observador y Consultor** en la configuración de AWS, seguido de entrenamiento intensivo (*Mentoring*) por el proveedor (liderado por **S. Bravo**). |
+| **Usuarios Estudiantiles** | Curva de aprendizaje del nuevo **Campus Virtual+**. | **Comunicación Proactiva** | Campañas de comunicación previas al lanzamiento con tutoriales y mensajes de **Mariela Salazar** destacando la mejora de la experiencia de usuario. |
+
+### 4. Matriz de Evaluación de la Participación Actual vs. Deseada
+
+Esta matriz se utilizará para monitorear si la participación de los interesados se mantiene en el nivel deseado.
+
+| Interesado | Participación Actual | Participación Deseada | Acciones para Cerrar Brecha |
+| :--- | :--- | :--- | :--- |
+| **Rectora (M. I. Zamora)** | Apoyo general, pero con poco detalle en las métricas. | **Líder** (Participación en el CCB y aprobación mensual de informes). | Enviar **Informes Ejecutivos** focalizados en la justificación del *business case*. |
+| **Director Académico (P. Núñez)** | Resistente al cambio por temor a la disrupción. | **Partidario** (Revisión activa de la calidad del $\text{Moodle/IA}$). | Sesión personal de $\text{1}$ hora con Sebastián Bravo para detallar los beneficios de la $\text{IA}$ y los controles de calidad. |
+| **Equipo de TI Interno** | Neutral / Escéptico sobre la subcontratación. | **Partidario** (Colaborador activo en la transferencia de conocimiento). | Incluirlos formalmente en las revisiones de arquitectura $\text{AWS}$ y *Code Reviews* como parte de su desarrollo profesional. |
 
 
 
