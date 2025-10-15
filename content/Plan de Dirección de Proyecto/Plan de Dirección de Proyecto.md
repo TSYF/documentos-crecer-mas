@@ -64,8 +64,6 @@
 ---
 ### Introducción
 
-# Introducción al Plan de Dirección del Proyecto
-
 ## Descripción de Alto Nivel del Proyecto
 
 ### ¿De qué se trata?
@@ -98,7 +96,6 @@ El proyecto abarcará las tres sedes actuales (San Bernardo, Maipú y Renca) con
 ---
 ### [Plan de gestión del alcance](./Plan%20de%20Gestión%20de%20Alcance/index.md)
 
-# Plan de Gestión del Alcance
 
 ## 1. Procedimientos para Elaborar la Definición de Alcance
 
@@ -277,8 +274,6 @@ Si un entregable no cumple con los criterios de aceptación:
 
 ---
 ### [Plan de gestión de requerimientos]()
-
-# Plan de Gestión de Requerimientos
 
 ## 1. Planificación, Reporte y Seguimiento de Actividades de Requerimientos
 
@@ -548,14 +543,8 @@ Frecuencia de reuniones: Semanal o según demanda
 
 
 
-
-
-
-
 ## <a name="_toc15313864"></a>**Plan de gestión del cronograma**
-Para consultar las instrucciones para completar la plantilla de plan de dirección de proyectos visita [**este enlace**](http://www.pmoinformatica.com/2019/07/plan-direccion-proyecto-plantilla.html).
 
-## Plan de Gestión del Cronograma
 
 El Plan de Gestión del Cronograma establece los criterios, políticas y procedimientos para desarrollar, monitorear, controlar y gestionar el cronograma del proyecto de Transformación Digital del Instituto Crecer Más, con el objetivo de asegurar que la duración final se ajuste a los rangos de tiempo estimados por cada módulo (10 a 18 meses).
 
@@ -620,15 +609,8 @@ Se establecerán umbrales de variación a partir de los cuales se requerirá una
 
 
 
-
-
-
 ## <a name="_toc15313865"></a>**Plan de gestión de costos**
 
-Descarga nuestra [**plantilla de presupuesto de un proyecto**](http://www.pmoinformatica.com/2014/10/presupuesto-de-un-proyecto.html) siguiendo el enlace.
-
-
-## Plan de Gestión de Costos
 
 Este plan establece la manera en que se planificarán, estructurarán, estimarán, presupuestarán y controlarán los costos del Proyecto de Transformación Digital Integral de Crecer Más, con un presupuesto total de $\text{\$480.000.000}$ CLP.
 
@@ -699,10 +681,7 @@ El control se realizará a través del **Análisis del Valor Ganado (EVM)**, con
 
 
 ## <a name="_toc15313866"></a>**Plan de gestión de calidad**
-Para consultar las instrucciones para completar la plantilla de plan de dirección de proyectos visita [**este enlace**](http://www.pmoinformatica.com/2019/07/plan-direccion-proyecto-plantilla.html).
 
-
-## Plan de Gestión de Calidad
 
 Este plan describe cómo se implementarán en el proyecto de Transformación Digital las políticas, metodologías y estándares para garantizar que los entregables y el desempeño del proyecto cumplan con las expectativas y los criterios de aceptación definidos en la Matriz de Trazabilidad de Requisitos (RTM).
 
@@ -762,15 +741,8 @@ Todos los entregables del proyecto serán sujetos a revisión de calidad.
 
 
 
-
-
-
 ## <a name="_toc15313867"></a>**Plan de gestión de recursos**
 
-Asigna las responsabilidades y niveles de autoridad en proyectos con nuestra [**plantilla de matriz RACI**](http://www.pmoinformatica.com/2013/07/plantilla-matriz-raci-asignacion.html).
-
-
-## Plan de Gestión de Recursos
 
 Este plan proporciona los lineamientos sobre la categorización, identificación, adquisición, gestión y liberación de los recursos necesarios para el Proyecto de Transformación Digital Integral de Crecer Más, incluyendo recursos materiales (infraestructura) y recursos humanos (equipo técnico y gerencial).
 
@@ -863,8 +835,6 @@ El control de los recursos físicos y tecnológicos se centrará en el monitoreo
 ## <a name="_toc15313868"></a>**Plan de gestión de comunicaciones**
 
 
-## Plan de Gestión de Comunicaciones
-
 El Plan de Gestión de Comunicaciones establece cómo, cuándo, quién y con qué frecuencia se gestionará, almacenará y distribuirá la información del Proyecto de Transformación Digital del Instituto Crecer Más a todos los interesados (Patrocinadores, Equipo, Usuarios, CCB).
 
 ### 1. Requisitos y Estructura de la Comunicación
@@ -919,7 +889,6 @@ Se define una ruta clara para la gestión de problemas fuera de la capacidad de 
 
 ## <a name="_toc15313869"></a>**Plan de gestión de riesgos de un proyecto**
 
-## Plan de Gestión de Riesgos
 
 El Plan de Gestión de Riesgos establece la metodología para identificar, analizar, planificar la respuesta, y monitorear los riesgos durante el ciclo de vida del Proyecto de Transformación Digital, con el objetivo de maximizar la probabilidad de éxito y minimizar el impacto de eventos negativos.
 
@@ -974,11 +943,8 @@ La gestión de riesgos se vincula directamente a las líneas base del proyecto:
 
 
 
-
-
 ## <a name="_toc15313870"></a>**Plan de gestión de adquisiciones**
 
-## Plan de Gestión de Adquisiciones
 
 Este plan establece los procedimientos y directrices para adquirir bienes y servicios externos al Instituto Técnico Profesional Crecer Más, principalmente el equipo de desarrollo subcontratado y las licencias de software (CRM, infraestructura AWS).
 
@@ -1064,14 +1030,8 @@ El Instituto Crecer Más mantendrá una lista corta de $\text{3}$ a $\text{5}$ p
 
 
 
-
-
-
-
-
 ## <a name="_toc15313871"></a>**Plan de gestión de los interesados**
 
-## Plan de Gestión de los Interesados
 
 Este plan define las estrategias para identificar, analizar y gestionar de manera efectiva las expectativas y la participación de todos los individuos y organizaciones afectadas por el Proyecto de Transformación Digital del Instituto Crecer Más.
 
@@ -1124,49 +1084,141 @@ Esta matriz se utilizará para monitorear si la participación de los interesado
 
 
 
-
-
-
-
-
 # <a name="_toc15313872"></a>**Líneas base del proyecto**
+
+Las Líneas Base (Alcance, Cronograma y Costo) representan los valores y entregables aprobados para la medición del desempeño del proyecto. Cualquier desviación de estas líneas base deberá ser gestionada y aprobada formalmente a través del Comité de Control de Cambios (CCB).
+
+
+
+
+
 ## <a name="_toc15313873"></a>**Línea base de alcance**
-Para consultar las instrucciones para completar la plantilla de plan de dirección de proyectos visita [**este enlace**](http://www.pmoinformatica.com/2019/07/plan-direccion-proyecto-plantilla.html).
 
 
+La Línea Base del Alcance define el trabajo exacto que debe ser realizado para entregar el Proyecto de Transformación Digital y se compone de los siguientes elementos consolidados:
 
+#### 1.1. Enunciado del Alcance del Proyecto (Resumen)
 
+El proyecto consiste en la Transformación Digital Integral del Instituto Crecer Más mediante el desarrollo e implementación de cuatro (4) módulos funcionales en una nueva infraestructura *Cloud* AWS, con el objetivo de duplicar la matrícula y reducir la deserción estudiantil en un $\text{30\%}$.
 
+**Entregables Principales:**
 
+1.  **Infraestructura Cloud AWS:** Configuración de EKS, RDS, S3 y entorno de desarrollo (Backend Python, Frontend Vue.js).
+2.  **Módulo SIGAA/Administrativo:** Desarrollo de una nueva interfaz y migración de datos para funciones críticas (Matrícula, Notas, Carga Docente).
+3.  **Sistema de Alerta Temprana (IA):** Desarrollo e implementación de un Motor de IA con $\text{30\%}$ de precisión para predecir la deserción estudiantil.
+4.  **CRM Educativo y Admisión:** Implementación de Salesforce o alternativa *open-source* para la automatización de la admisión y campañas.
+5.  **Campus Virtual+ (Moodle):** Integración del nuevo *frontend* (Vue.js) sobre la plataforma Moodle existente.
+
+**Exclusiones del Alcance:**
+
+* Mantenimiento o desarrollo adicional en los sistemas *legacy* fuera de las APIs de integración.
+* Adquisición de hardware físico (el proyecto es $\text{100\%}$ *Cloud*).
+* Formación de personal administrativo en habilidades de *cloud computing* (solo transferencia de conocimiento operativo).
+
+#### 1.2. Estructura de Desglose del Trabajo (EDT/WBS)
+
+| Nivel 1 | Nivel 2 | Nivel 3 (Paquetes de Trabajo Clave) |
+| :--- | :--- | :--- |
+| **1. INICIO Y PLANIFICACIÓN** | 1.1. Planificación Ejecutiva | Aprobación de Líneas Base y Plan de Riesgos. |
+| **2. INFRAESTRUCTURA (AWS)** | 2.1. *Setup* Cloud | Configuración VPC, Clúster EKS, Despliegue de DB (MongoDB/PostgreSQL). |
+| | 2.2. Entorno de Desarrollo | Configuración de Repositorios (GitLab) y pipelines CI/CD. |
+| **3. DESARROLLO DE MÓDULOS** | 3.1. SIGAA (Backend Python) | Desarrollo de APIs de integración segura con el *legacy* y funciones críticas. |
+| | 3.2. CRM/Admisión | Configuración de Salesforce/EspoCRM y formularios de postulación. |
+| | 3.3. Alerta Temprana (IA) | Desarrollo, entrenamiento inicial y despliegue del Motor de IA. |
+| | 3.4. Campus Virtual+ | Desarrollo del *frontend* Vue.js e integración con Moodle. |
+| **4. PRUEBAS Y UAT** | 4.1. Pruebas de Carga/Seguridad | Pruebas de estrés de AWS y auditoría de *firewalls*. |
+| | 4.2. UAT con *Product Owners* | Validación de las funcionalidades por Admisión y Académico. |
+| **5. CIERRE Y TRANSICIÓN** | 5.1. *Go-Live* | Despliegue en entorno de Producción y Migración Final de Datos. |
+| | 5.2. Cierre Formal | Transferencia de Conocimiento y Documentación Final. |
+
+---
 
 
 ## <a name="_toc15313874"></a>**Línea base de cronograma**
 
 
+La Línea Base del Cronograma se define por la duración total del proyecto de **12 meses** y se mide contra las fechas de finalización de los *Milestones* críticos.
 
+| Hito / *Milestone* | Módulos Impactados | Fecha de Finalización Aprobada | Variación Máxima Aceptada |
+| :--- | :--- | :--- | :--- |
+| **Firma de Contrato de Adquisición** | Todos | Mes 1 (Semana 4-6) | Ninguna (Riesgo Alto) |
+| **Infraestructura AWS Operativa (MVP)** | Todos | Mes 2 | $\text{1}$ semana |
+| ***Go-Live* Módulo SIGAA (Funciones Críticas)** | SIGAA | Mes 6 | $\text{2}$ semanas |
+| ***Go-Live* Módulo CRM/Admisión** | CRM | Mes 8 | $\text{2}$ semanas |
+| ***Go-Live* Módulo Alerta Temprana (Beta)** | Alerta Temprana | Mes 10 | $\text{2}$ semanas |
+| **Cierre Formal del Proyecto** | Todos | Mes 12 | $\text{1}$ semana |
 
+**Métrica de Control:** El desempeño del cronograma se medirá mediante el **Índice de Desempeño del Cronograma (SPI)**. Si el **SPI** es consistentemente inferior a $\text{0.95}$, se activará un plan de recuperación contractual con el proveedor.
 
-
-
-
-
+---
 
 
 ## <a name="_toc15313875"></a>**Línea base de costo**
 
 
+La Línea Base del Costo incluye los presupuestos asignados a las cuatro fases principales del proyecto, excluyendo la Reserva de Gestión, la cual no forma parte de la Línea Base, sino del Presupuesto Total.
 
+| Componente de Costo | Costo Estimado (CLP) | Porcentaje del Presupuesto Total |
+| :--- | :--- | :--- |
+| **1. Desarrollo de Módulos (SIGAA, IA, CV+, CRM)** | $\text{\$480.000.000}$ | $\text{76,2\%}$ |
+| **2. Infraestructura y *Setup* AWS** | $\text{\$70.000.000}$ | $\text{11,1\%}$ |
+| **3. Licencias y *SaaS* (CRM, Herramientas)** | $\text{\$56.000.000}$ | $\text{8,9\%}$ |
+| **4. Gestión de Proyecto y Capacitación** | $\text{\$16.000.000}$ | $\text{2,5\%}$ |
+| **LÍNEA BASE DEL COSTO (LBC)** | **$\text{\$622.000.000}$** | **$\text{98,7\%}$** |
+| **Reserva de Contingencia (Identificada - Riesgos)** | $\text{\$8.000.000}$ | $\text{1,3\%}$ |
+| **PRESUPUESTO TOTAL (LBC + Contingencia)** | **$\text{\$630.000.000}$** | **$\text{100\%}$** |
 
+**Métrica de Control:** El desempeño del costo se medirá mediante el **Índice de Desempeño del Costo (CPI)**. Si el **CPI** es consistentemente inferior a $\text{0.90}$, se requerirá la aprobación del **Comité de Control de Cambios (CCB)** para liberar fondos de la Reserva de Contingencia o renegociar el alcance.
 
-
-
-
-
+---
 
 
 ## <a name="_toc15313876"></a>**Línea base para la medición del desempeño**
 
+La Línea Base para la Medición del Desempeño (PMB) integra las líneas base de Alcance, Cronograma y Costo para establecer los puntos de control y los **Valores Ganados (Earned Value)** contra los cuales se medirá el progreso del proyecto.
 
+### 1. Métricas Clave de Valor Ganado (Performance Metrics)
+
+El proyecto utilizará las siguientes métricas para medir el rendimiento semanal y mensual:
+
+| Métrica | Propósito | Umbral de Control (Activación) | Frecuencia de Reporte |
+| :--- | :--- | :--- | :--- |
+| **Índice de Desempeño del Cronograma (SPI)** | Mide la eficiencia con la que se utiliza el tiempo. | $\text{SPI} \leq 0.95$ | Semanal (Reunión de Coordinación) |
+| **Índice de Desempeño del Costo (CPI)** | Mide la eficiencia con la que se utiliza el presupuesto. | $\text{CPI} \leq 0.90$ | Mensual (Informe Ejecutivo) |
+| **Varianza del Cronograma (SV)** | Diferencia entre el Valor Ganado (EV) y el Valor Planificado (PV). | $\text{SV} < 0$ (Retraso) | Semanal |
+| **Estimación a la Finalización (EAC)** | Pronóstico del costo total al finalizar el proyecto. | Desviación del $\text{EAC} > 5\%$ de la Línea Base del Costo. | Mensual |
+
+### 2. Umbrales de Desviación y Acciones de Control
+
+Se establecen umbrales de control que definen cuándo se requiere una acción correctiva o una escalada al **Comité de Control de Cambios (CCB)**:
+
+| Nivel de Desviación | Criterio de Activación | Acción Requerida | Responsable de la Acción |
+| :--- | :--- | :--- | :--- |
+| **Amarillo (Alerta)** | $\text{SPI}$ o $\text{CPI}$ entre $\text{0.90}$ y $\text{0.95}$. | Elaborar Plan de Recuperación del *Sprint*/Mes (ej. Reasignación de tareas). | Gerentes de Proyecto (**S. Bravo** y **M. Salazar**) |
+| **Rojo (Crítico)** | $\text{SPI}$ o $\text{CPI} \leq 0.90$ por dos periodos consecutivos. | Escalada al CCB y Patrocinador Principal para solicitud formal de **Uso de Reserva de Contingencia** o **Ajuste del Alcance**. | Gerente de Proyecto TI (**Sebastián Bravo**) |
+| **Riesgo Activo** | Activación de una respuesta a riesgo (ej. R-3: Sobrecosto AWS). | Desviación del presupuesto se carga a la **Reserva de Contingencia**. | Gerente de Proyecto TI (Monitoreo) |
+
+### 3. Métricas de Calidad y Negocio (KPIs)
+
+Además de las métricas de desempeño tradicionales, se monitorearán los siguientes Indicadores Clave de Desempeño, que son relevantes para los Patrocinadores (**María Inés Zamora** y **Patricio Núñez**):
+
+| KPI | Módulo Asociado | Objetivo de la Métrica | Frecuencia de Reporte |
+| :--- | :--- | :--- | :--- |
+| **Tasa de Defectos en UAT** | Todos los Módulos | Tasa de defectos reportados por los *Product Owners* durante las Pruebas de Aceptación del Usuario. | Bisemanal (Revisión de *Sprint*) |
+| **Tasa de Acierto de IA** | Alerta Temprana | Porcentaje de estudiantes en riesgo correctamente clasificados por el Motor de IA. | Trimestral |
+| **Tiempo de Respuesta del API** | SIGAA/AWS | Tiempo promedio de respuesta de las APIs críticas de matrícula/notas (Objetivo: $\leq 500\text{ms}$). | Mensual |
+| **Progreso de Transferencia de Conocimiento** | Todos | Porcentaje de documentación de código y arquitectura AWS completada y validada por el equipo de TI interno. | Mensual |
+| **Matrícula Neta (Post-Go-Live)** | CRM | Métrica de Negocio (Duplicación de Matrícula). | Trimestral |
+
+### 4. Responsabilidad y Reporte
+
+| Documento / Reporte | Responsable de la Creación | Responsable de la Aprobación | Periodicidad |
+| :--- | :--- | :--- | :--- |
+| **Informe de Valor Ganado** | Gerente de Proyecto TI (**S. Bravo**) | N/A | Semanal |
+| **Informe Ejecutivo Mensual (KPIs)** | Gerentes de Proyecto (Integrado) | Rectora (**M. I. Zamora**) | Mensual |
+| **Solicitud de Cambio (CR)** | Cualquier Miembro del Equipo | Comité de Control de Cambios (CCB) | Según sea necesario |
+
+La **Línea Base para la Medición del Desempeño** garantiza que la gestión del proyecto se centre en la creación de **Valor Ganado** y en el cumplimiento de los objetivos estratégicos del negocio definidos por la Rectora y los Patrocinadores.
 
 
 
