@@ -6,6 +6,8 @@ Nuestro grupo está conformado por:
 * Tomás Yañez
 * Camilo Gonzalez
 
-Le invito a comenzar por leer el [Plan de Dirección de Proyecto](obsidian://open?vault=content&file=Plan%20de%20Direcci%C3%B3n%20de%20Proyecto%2FPlan%20de%20Direcci%C3%B3n%20de%20Proyecto).
+Le invito a comenzar por leer el [Plan de Dirección de Proyecto](Plan%20de%20Direcci%C3%B3n%20de%20Proyecto%2FPlan%20de%20Direcci%C3%B3n%20de%20Proyecto).
+
+Además lo invito a leer sobre mi experiencia con el proyecto de IA e IoT: [PaseEspere](Análisis%20del%20Proyecto%20PaseEspere.md)
 
 ¡Muchas Gracias!
