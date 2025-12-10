@@ -153,13 +153,13 @@ El sistema funcionará sobre la infraestructura tecnológica actual (servidor f�
 
 ### 6.1 Restricciones Presupuestarias
 
-- Presupuesto máximo asignado: $120.000.000 CLP
+- Presupuesto máximo asignado: $480.000.000 CLP
 - No se pueden exceder las asignaciones por categoría sin aprobación del patrocinador
 
 ### 6.2 Restricciones Temporales
 
-- Duración máxima del proyecto: 12 meses (agosto 2025 - agosto 2026)
-- Fecha límite no negociable para go-live: julio 2026
+- Duración máxima del proyecto: 21 meses (agosto 2025 - mayo 2027)
+- Fecha límite no negociable para go-live: abril 2027
 - Hitos intermedios establecidos son de cumplimiento obligatorio
 
 ### 6.3 Restricciones Tecnológicas
